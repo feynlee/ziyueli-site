@@ -33,7 +33,7 @@ Best fit: any business that needs help with AI, data or software, and teams that
 
 ## Apps I built
 
-- [BillSplit](https://feynlee.github.io/ziyueli-site/apps/billsplit/): Split any bill item by item. Saved profiles match similar bills and split them your way. Runs on Apple Intelligence with Private Cloud Compute, which keeps no data. Free, secure and private.
+- [BillSplit](https://feynlee.github.io/ziyueli-site/apps/billsplit/): Take a photo of the receipt and it scans the items, tax and total. Split the bill item by item. Saved profiles match similar bills and split them your way. Runs on Apple Intelligence with Private Cloud Compute, which keeps no data. Free, secure and private.
 - [Lexigen](https://feynlee.github.io/ziyueli-site/apps/lexigen/): AI flashcards for language learning. Definitions and usage examples are written by Apple's on-device models.
 - [PassPhoto](https://feynlee.github.io/ziyueli-site/apps/passphoto/): Passport photos made easy on your phone. It guides you, then crops and resizes the photo to the official rules of 45 countries and areas, and checks the result with AI. Free and private with Apple Intelligence.
 - [Long Text Pic](https://feynlee.github.io/ziyueli-site/apps/longtextpic/): Edit long text and turn it into one long image for sharing.
