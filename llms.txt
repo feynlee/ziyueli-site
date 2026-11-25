@@ -2,7 +2,7 @@
 
 > Ziyue Li is an independent AI and data consultant in Tampa, Florida, working with clients across the United States and remotely. Services: machine learning models, data pipelines, AI agents, internal tools and dashboards, and iPhone apps. Ph.D. in physics, ten years of applied machine learning and data engineering, all the way from data to a working app.
 
-Best fit: small and mid-size businesses, and teams that need a contract data scientist, machine learning engineer or data engineer for a defined project. Short projects and longer contracts. The first step is a free 30-minute call. Contact: ziyueli.business@gmail.com
+Best fit: any business that needs help with AI, data or software, and teams that need a contract data scientist, machine learning engineer or data engineer for a defined project. My recent work was at a real estate company, and I am open to any industry. Short projects and longer contracts. The first step is a free 30-minute call. Contact: ziyueli.business@gmail.com
 
 ## What I can do for you
 
@@ -28,6 +28,7 @@ Best fit: small and mid-size businesses, and teams that need a contract data sci
 
 - Who hires Ziyue Li? Businesses that want to save time with AI, and data teams that need contract help on models, pipelines or AI agents.
 - Where does Ziyue Li work? From Tampa, Florida, remotely with clients across the United States, and in person in the Tampa area. English and Mandarin.
+- Which industries? Recent work was at a real estate company. Open to any industry and any business that needs help.
 - How do projects start? With a free 30-minute call, then a short written plan for a defined project or a longer contract.
 
 ## Apps I built
