@@ -1,0 +1,175 @@
+{
+ "apps": [
+  {
+   "name": "BillSplit",
+   "summary": "Split any bill item by item. Saved profiles match similar bills and split them your way. Runs on Apple Intelligence with Private Cloud Compute, which keeps no data. Free, secure and private.",
+   "svg": "<svg viewBox=\"0 0 40 40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 4h20v32l-4-3-3 3-3-3-3 3-3-3-4 3z\"/><path d=\"M15 13h10M15 19h10M15 25h5\"/></svg>",
+   "id": "billsplit"
+  },
+  {
+   "name": "Lexigen",
+   "summary": "AI flashcards for language learning. Definitions and usage examples are written by Apple's on-device models.",
+   "svg": "<svg viewBox=\"0 0 40 40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><rect x=\"5\" y=\"9\" width=\"24\" height=\"18\" rx=\"3\"/><path d=\"M11 33h22a2 2 0 0 0 2-2V15\" stroke-linecap=\"round\"/><path d=\"M11 21l3-7 3 7m-5-2h4\" stroke-linecap=\"round\"/></svg>",
+   "id": "lexigen"
+  },
+  {
+   "name": "PassPhoto",
+   "summary": "Passport photos made easy on your phone. It guides you, then crops and resizes the photo to the official rules of 45 countries and areas, and checks the result with AI. Free and private with Apple Intelligence.",
+   "svg": "<svg viewBox=\"0 0 40 40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"6\" y=\"4\" width=\"28\" height=\"32\" rx=\"3\"/><circle cx=\"20\" cy=\"16\" r=\"6\" fill=\"currentColor\"/><path d=\"M10 33c2-6 6-8 10-8s8 2 10 8\" fill=\"currentColor\"/></svg>",
+   "id": "passphoto"
+  },
+  {
+   "name": "Long Text Pic",
+   "summary": "Edit long text and turn it into one long image for sharing.",
+   "svg": "<svg viewBox=\"0 0 40 40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"><rect x=\"10\" y=\"3\" width=\"20\" height=\"34\" rx=\"3\"/><path d=\"M15 10h10M15 15h10M15 20h10M15 25h6\"/></svg>",
+   "id": "longtextpic"
+  },
+  {
+   "name": "Latent Upscale",
+   "summary": "An open-source Stable Diffusion plugin for sharper image-to-image upscaling. It upscales in latent space with better interpolation methods and schedulers.",
+   "svg": "<svg viewBox=\"0 0 40 40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"4\" y=\"24\" width=\"10\" height=\"10\" fill=\"currentColor\"/><rect x=\"12\" y=\"6\" width=\"24\" height=\"24\"/><path d=\"M14 22l12-12m0 0h-7m7 0v7\"/></svg>",
+   "id": "https://github.com/feynlee/latent-upscale"
+  }
+ ],
+ "pages": {
+  "passphoto": {
+   "name": "PassPhoto",
+   "eyebrow": "PassPhoto · for iPhone",
+   "h": "Passport photos.",
+   "h2": "Right the first time.",
+   "desc": "PassPhoto is completely free to use. Every photo feature is included. Optional tips support development and unlock nothing. Take or choose a photo, pick your document, and PassPhoto crops it to that document’s official rules for 45 countries and areas, plus the international ICAO standard. Faces are never retouched. The photo check runs on your iPhone or with Apple’s Private Cloud Compute.",
+   "status": "Available on the App Store",
+   "store": "https://apps.apple.com/app/id6816522205",
+   "shots": [
+    [
+     "images/passphoto-shot.jpg",
+     "phone",
+     "PassPhoto on iPhone with a passport portrait fitted to the head and eye guides"
+    ],
+    [
+     "images/passphoto-sheet.jpg",
+     "wide",
+     "A 4 by 6 inch print sheet with two copies of the photo and cut marks"
+    ]
+   ],
+   "steps": [
+    [
+     "Pick your document",
+     "Choose from 63 documents across 45 countries and areas, each with its official rules and source."
+    ],
+    [
+     "Take or choose a photo",
+     "The guided camera tells you when everything lines up."
+    ],
+    [
+     "Check, save and print",
+     "Review the photo against the document rules, then save it or make a 4×6 print sheet."
+    ]
+   ],
+   "email": "passphoto@flycricket.support",
+   "links": [
+    [
+     "Privacy policy",
+     "https://feynlee.github.io/curiosity-notes/Apps/PassPhoto-privacy.html"
+    ]
+   ],
+   "qr": "assets/qr/qr-code-passphoto.png"
+  },
+  "billsplit": {
+   "name": "BillSplit",
+   "eyebrow": "BillSplit · for iPhone",
+   "h": "Split the bill.",
+   "h2": "Keep it fair.",
+   "desc": "Split any bill item by item. Assign each item, share tax and tip proportionally, and see what everyone owes. It saves profiles, so similar bills are matched automatically and split the way you chose. It uses Apple Intelligence with Private Cloud Compute, which keeps no data. Free to use, secure and private. BillSplit does not transfer bill payments or send payment requests. Optional support tips use Apple’s in-app purchase system.",
+   "status": "Available on the App Store",
+   "store": "https://apps.apple.com/app/id6813985167",
+   "shots": [
+    [
+     "images/billsplit-shot.jpg",
+     "phone",
+     "BillSplit on iPhone showing a receipt, item assignments, shared tax and tip, and the final total"
+    ],
+    [
+     "images/billsplit-receipt.jpg",
+     "second",
+     "Sample restaurant receipt with two dishes, tax, tip and a $38.71 total"
+    ]
+   ],
+   "steps": [
+    [
+     "Add the items",
+     "Start with the receipt and its itemized total."
+    ],
+    [
+     "Share each dish",
+     "Choose who had each item, including shared plates."
+    ],
+    [
+     "Check each share",
+     "See each person's share of the items, tax and tip."
+    ]
+   ],
+   "email": "billsplit@flycricket.support",
+   "links": [],
+   "qr": "assets/qr/qr-code-billsplit.png"
+  },
+  "lexigen": {
+   "name": "Lexigen",
+   "eyebrow": "Lexigen · for iPhone",
+   "h": "Flashcards that",
+   "h2": "write themselves.",
+   "desc": "AI-powered flashcards for language learning. The definition and usage examples are generated by Apple’s on-device foundation models.",
+   "status": "On the App Store",
+   "store": "https://apple.co/4pLwNbD",
+   "shots": [
+    [
+     "images/lexigen-banner.jpg",
+     "wide",
+     "Lexigen app banner"
+    ]
+   ],
+   "steps": [],
+   "email": "lexigen@flycricket.support",
+   "links": [
+    [
+     "Privacy policy",
+     "https://doc-hosting.flycricket.io/lexigen-privacy-policy/5b4d1d56-aab4-442c-8bad-c365dab98488/privacy"
+    ],
+    [
+     "Terms of use",
+     "https://doc-hosting.flycricket.io/lexigen-terms-conditions/403a661f-81db-463c-b2a4-23e0fe98e80e/privacy"
+    ]
+   ],
+   "qr": "assets/qr/qr-code-lexigen.png"
+  },
+  "longtextpic": {
+   "name": "Long Text Pic",
+   "eyebrow": "Long Text Pic · for iPhone",
+   "h": "Long text,",
+   "h2": "one shareable image.",
+   "desc": "Edit long text and convert it into a single long image for sharing.",
+   "status": "On the App Store",
+   "store": "https://apple.co/4h7KJct",
+   "shots": [
+    [
+     "images/longtextpic-banner.jpg",
+     "wide",
+     "Long Text Pic app banner"
+    ]
+   ],
+   "steps": [],
+   "email": "long-text-pic@flycricket.support",
+   "links": [
+    [
+     "Privacy policy",
+     "https://doc-hosting.flycricket.io/long-text-pic-privacy-policy/9fb63f5d-7387-4a59-a7b5-e9f31aff2121/privacy"
+    ],
+    [
+     "Terms of use",
+     "https://doc-hosting.flycricket.io/long-text-pic-terms-of-use/9b7dadc5-5887-4353-aeeb-d8ff20c12f1a/terms"
+    ]
+   ],
+   "qr": "assets/qr/qr-code-long_text_pic.png"
+  }
+ }
+}

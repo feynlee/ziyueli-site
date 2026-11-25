@@ -1,0 +1,51 @@
+# Ziyue Li
+
+> Ziyue Li is an independent AI and data consultant in Tampa, Florida, working with clients across the United States and remotely. Services: machine learning models, data pipelines, AI agents, internal tools and dashboards, and iPhone apps. Ph.D. in physics, ten years of applied machine learning and data engineering, all the way from data to a working app.
+
+Best fit: small and mid-size businesses, and teams that need a contract data scientist, machine learning engineer or data engineer for a defined project. Short projects and longer contracts. The first step is a free 30-minute call. Contact: ziyueli.business@gmail.com
+
+## What I can do for you
+
+- [AI, data pipelines and machine learning](https://feynlee.github.io/ziyueli-site/#ai): Predictive models, LLM and AI agent projects (for example Snowflake Cortex agents that let business users ask data questions), ELT and change-data-capture pipelines, analysis and dashboards.
+- [Technology and AI for your business](https://feynlee.github.io/ziyueli-site/#biz): Payments, ordering, booking, a website, and AI that saves staff time. I explain the options in plain words and set up the one that fits.
+- [Apps and internal tools](https://feynlee.github.io/ziyueli-site/#apps): Customer-facing iPhone apps and enterprise internal tools that use automation, ML models and AI, such as Retool apps and self-serve data platforms.
+
+## Tools and skills
+
+- ML and AI: Python, PyTorch, fastai, LLMs, Snowflake Cortex agents
+- Data: SQL, PySpark, Snowflake, dbt, Airflow, CDC/ELT
+- Cloud: AWS (EMR, Lambda, ECS, Glue, Athena), Docker, Terraform
+- Apps: Retool, Swift, SwiftUI, HTML, CSS, JavaScript
+
+## Selected results
+
+- Agent termination prediction models: +50% accuracy.
+- Rebuilt a core model in PyTorch: +10% accuracy. Restructured its AWS pipeline: -20% cost and time.
+- Built pipelines handling 350 GB a month as the only data scientist at a startup.
+- Built an in-house data app platform on AWS meant to replace Retool and commercial BI tools.
+
+## Questions people ask
+
+- Who hires Ziyue Li? Businesses that want to save time with AI, and data teams that need contract help on models, pipelines or AI agents.
+- Where does Ziyue Li work? From Tampa, Florida, remotely with clients across the United States, and in person in the Tampa area. English and Mandarin.
+- How do projects start? With a free 30-minute call, then a short written plan for a defined project or a longer contract.
+
+## Apps I built
+
+- [BillSplit](https://feynlee.github.io/ziyueli-site/apps/billsplit/): Split any bill item by item. Saved profiles match similar bills and split them your way. Runs on Apple Intelligence with Private Cloud Compute, which keeps no data. Free, secure and private.
+- [Lexigen](https://feynlee.github.io/ziyueli-site/apps/lexigen/): AI flashcards for language learning. Definitions and usage examples are written by Apple's on-device models.
+- [PassPhoto](https://feynlee.github.io/ziyueli-site/apps/passphoto/): Passport photos made easy on your phone. It guides you, then crops and resizes the photo to the official rules of 45 countries and areas, and checks the result with AI. Free and private with Apple Intelligence.
+- [Long Text Pic](https://feynlee.github.io/ziyueli-site/apps/longtextpic/): Edit long text and turn it into one long image for sharing.
+- [Latent Upscale](https://github.com/feynlee/latent-upscale): An open-source Stable Diffusion plugin for sharper image-to-image upscaling. It upscales in latent space with better interpolation methods and schedulers.
+
+## Contact
+
+- [Book a free 30-minute call](https://calendar.app.google/rnUERQypoLeDZwRb8)
+- [GitHub](https://github.com/feynlee)
+- [LinkedIn](https://linkedin.com/in/ziyueli)
+
+## Optional
+
+- [Resume](https://feynlee.github.io/ziyueli-site/resume/): Experience, skills and projects. PDF: https://feynlee.github.io/ziyueli-site/Ziyue-Li-resume.pdf
+- [Work history](https://feynlee.github.io/ziyueli-site/#why)
+- [Privacy](https://feynlee.github.io/ziyueli-site/privacy/)

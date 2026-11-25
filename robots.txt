@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://feynlee.github.io/ziyueli-site/sitemap.xml

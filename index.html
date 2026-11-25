@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ziyue Li, AI and data consultant in Tampa</title>
+<meta name="description" content="Independent consultant, contractor and app developer in Tampa. AI, data pipelines and machine learning, plus technology and AI help for small businesses.">
+<link rel="canonical" href="https://feynlee.github.io/ziyueli-site/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ziyue Li">
+<meta property="og:title" content="Ziyue Li, AI and data consultant in Tampa">
+<meta property="og:description" content="AI, data pipelines and machine learning, plus technology and AI help for small businesses.">
+<meta property="og:url" content="https://feynlee.github.io/ziyueli-site/">
+<meta property="og:image" content="https://feynlee.github.io/ziyueli-site/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E1326">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt">
+<link rel="preload" href="assets/fonts/geologica-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts.css">
+<meta name="google-site-verification" content="RvkpZ-pswX4H2odlteDyyqgXwGAsnGpV4q4g7ULwENw">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://feynlee.github.io/ziyueli-site/#person","name":"Ziyue Li","jobTitle":"AI and data consultant, machine learning engineer and app developer","description":"Independent AI and data consultant in Tampa, Florida. Ten years of applied machine learning and data engineering, Ph.D. in physics. Builds machine learning models, data pipelines, AI agents, internal tools and iPhone apps.","alumniOf":[{"@type":"CollegeOrUniversity","name":"North Carolina State University"},{"@type":"CollegeOrUniversity","name":"University of Science and Technology Beijing"}],"knowsLanguage":["English","Mandarin Chinese"],"url":"https://feynlee.github.io/ziyueli-site/","address":{"@type":"PostalAddress","addressLocality":"Tampa","addressRegion":"FL","addressCountry":"US"},"knowsAbout":["Machine learning","Data engineering","Data pipelines","AI agents","Large language models","PyTorch","Snowflake","AWS","Airflow","dbt","Terraform","PySpark","Retool","Swift and SwiftUI","iOS app development"],"sameAs":["https://github.com/feynlee","https://linkedin.com/in/ziyueli"],"email":"ziyueli.business@gmail.com"},{"@type":"ProfessionalService","@id":"https://feynlee.github.io/ziyueli-site/#service","name":"Ziyue Li, AI and data consulting","url":"https://feynlee.github.io/ziyueli-site/","founder":{"@id":"https://feynlee.github.io/ziyueli-site/#person"},"areaServed":[{"@type":"Country","name":"United States"},{"@type":"City","name":"Tampa"}],"address":{"@type":"PostalAddress","addressLocality":"Tampa","addressRegion":"FL","addressCountry":"US"},"availableLanguage":["English","Mandarin Chinese"],"sameAs":["https://github.com/feynlee","https://linkedin.com/in/ziyueli"],"description":"Independent AI and data consulting in Tampa, Florida and remotely across the United States: machine learning, data pipelines, AI agents, internal tools, and technology and AI help for small businesses.","hasOfferCatalog":{"@type":"OfferCatalog","name":"Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"AI, data pipelines and machine learning","description":"Predictive models, LLM and AI agent projects, ELT and change-data-capture pipelines, analysis and dashboards."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Technology and AI for your business","description":"Payments, ordering, booking, a website, and AI that saves staff time."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Apps and internal tools","description":"Customer iPhone apps and enterprise internal tools with automation, ML models and AI."}}]}}]}</script>
+<script defer src="assets/consent.js"></script>
+<style>
+/* One live 3D network behind the page. It reshapes for each section: globe with three orbits, storefront, neural layers, phone, Borromean rings, double helix, galaxy.
+   Two themes, Midnight and Daylight. Laptop, phone, neural net and business system are 3D models built from parts. */
+:root{
+  --bg:#0E1326; --bg2:#151B33; --bg3:#1C2442; --line:#2A3354; --text:#E8EBF4; --muted:#949DB8;
+  --c1:#FFC46B; --c2:#6FE3F0; --c3:#B9A6FF; --on-c1:#2A1B00;
+  --display:"Geologica", "Helvetica Neue", Arial, sans-serif; --body:"Figtree", "Helvetica Neue", Arial, sans-serif;
+  --hw:300; --hls:-.025em; --rad:16px; --scrim:rgba(14,19,38,.80);
+  color-scheme:dark;
+}
+:root[data-style="daylight"]{--bg:#F5F7FB;--bg2:#FFFFFF;--bg3:#E9EDF5;--line:#D4DAE6;--text:#0E1326;--muted:#56607A;--c1:#C27400;--c2:#0B8597;--c3:#6347D6;--on-c1:#FFFFFF;--scrim:rgba(245,247,251,.86);color-scheme:light}
+:root[data-style="sea"]{--bg:#071A1E;--bg2:#0C2429;--bg3:#12313A;--line:#1F4048;--text:#E6EFEC;--muted:#8FAAA8;--c1:#FF9B7A;--c2:#7FE6CF;--c3:#9CC3FF;--on-c1:#2B0E05;
+  --display:"Syne", "Helvetica Neue", Arial, sans-serif;--body:"Manrope", "Helvetica Neue", Arial, sans-serif;--hw:600;--hls:-.03em;--rad:6px;--scrim:rgba(7,26,30,.82);color-scheme:dark}
+:root[data-style="porcelain"]{--bg:#F3F4F7;--bg2:#FFFFFF;--bg3:#E9ECF2;--line:#D5DAE4;--text:#141A2E;--muted:#5B6378;--c1:#C76E1C;--c2:#1C7491;--c3:#6247BF;--on-c1:#FFFFFF;
+  --display:"Instrument Serif", Georgia, serif;--body:"Inter Tight", "Helvetica Neue", Arial, sans-serif;--hw:400;--hls:-.01em;--rad:20px;--scrim:rgba(243,244,247,.86);color-scheme:light}
+:root[data-style="champagne"]{--bg:#17161A;--bg2:#201F24;--bg3:#2A2930;--line:#38363F;--text:#F1ECE3;--muted:#A9A296;--c1:#E2C27D;--c2:#A8C5D8;--c3:#D9A0A0;--on-c1:#241A05;
+  --display:"Bodoni Moda", Georgia, serif;--body:"Jost", "Helvetica Neue", Arial, sans-serif;--hw:400;--hls:-.01em;--rad:2px;--scrim:rgba(23,22,26,.84);color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:1.0625rem;line-height:1.6;overflow-x:hidden;transition:background .6s,color .6s}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--text);outline-offset:3px;border-radius:4px}
+h1,h2,h3{font-family:var(--display);font-weight:var(--hw);margin:0;line-height:1.04;letter-spacing:var(--hls);text-wrap:balance}
+p{margin:0}
+button{font:inherit;color:inherit}
+#net{position:fixed;inset:0;width:100vw;height:100vh;display:block;pointer-events:none;z-index:0}
+.top{position:fixed;top:0;left:0;right:0;box-sizing:border-box;max-width:100%;z-index:20;padding-top:env(safe-area-inset-top,0px);background:linear-gradient(var(--bg) 45%, transparent)}
+.top .in{display:flex;justify-content:space-between;align-items:center;gap:10px 28px;flex-wrap:nowrap;box-sizing:border-box;width:100%;max-width:1200px;margin-inline:auto;padding-block:18px;padding-left:max(24px, env(safe-area-inset-left,0px));padding-right:max(24px, env(safe-area-inset-right,0px))}
+.brand{white-space:nowrap;flex:none;font-family:var(--display);font-weight:var(--hw);font-size:1.25rem;text-decoration:none}
+.menu{display:flex;justify-content:flex-end;margin-left:auto;gap:4px clamp(12px,2vw,24px);flex-wrap:nowrap;white-space:nowrap;min-width:0;font-size:.92rem;color:var(--muted)}
+.menu a{text-decoration:none;padding-block:4px;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
+.menu a:hover,.menu a.here{color:var(--text)}
+.menu a.here{border-color:var(--cur,var(--text))}
+.themebtn{flex:none;width:36px;height:36px;display:grid;place-items:center;padding:0;border:1px solid var(--line);border-radius:50%;background:transparent;color:var(--muted);cursor:pointer;transition:color .2s,border-color .2s}
+.themebtn:hover{color:var(--text);border-color:var(--muted)}
+.themebtn svg{width:18px;height:18px}
+.themebtn .sun{display:none}
+:root[data-style="daylight"] .themebtn .sun{display:block}
+:root[data-style="daylight"] .themebtn .moon{display:none}
+@media (max-width:860px){.themebtn{margin-left:auto}}
+@media (max-width:860px){.menu{display:none}}
+
+main{position:relative;z-index:1}
+.sec{min-height:100vh;display:flex;align-items:center;padding-block:120px 80px;padding-left:max(20px, env(safe-area-inset-left,0px));padding-right:max(20px, env(safe-area-inset-right,0px))}
+@media (min-width:900px){.sec{padding-left:max(7vw, env(safe-area-inset-left,0px))}}
+.col{width:100%;max-width:580px}
+main{overflow-x:clip}
+@media (max-width:899px){.sec{padding-top:44vh;align-items:flex-start}.col{background:var(--scrim);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-radius:var(--rad);padding:24px 20px;margin-inline:auto}}
+.sec h2{font-size:clamp(2.6rem,5.2vw,4.4rem)}
+.lede{margin-top:18px;color:var(--muted);font-size:1.15rem;max-width:31em}
+.lede strong{color:var(--text);font-weight:500}
+.for{display:inline-block;margin-bottom:14px;font-size:.95rem;color:var(--muted)}
+.for b{font-weight:500;color:var(--sec,var(--text))}
+
+/* hero */
+.hero h1{font-size:clamp(2.5rem,5vw,4.6rem);max-width:11em}
+.hero .lede{max-width:33em}
+.proof{list-style:none;margin:26px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.proof li{font-size:.9rem;padding:6px 12px;border:1px solid var(--line);border-radius:999px;color:var(--text);background:color-mix(in srgb,var(--bg2) 70%,transparent)}
+.morphs{margin-top:26px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.morphs span{font-size:.88rem;color:var(--muted);margin-right:4px}
+.morphs button{background:transparent;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:.88rem;color:var(--muted);cursor:pointer;transition:all .25s}
+.morphs button:hover{color:var(--text);border-color:var(--muted)}
+.morphs button[aria-pressed="true"]{color:var(--bg);background:var(--text);border-color:var(--text)}
+.cta{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center;margin-top:30px}
+.btn{display:inline-block;text-decoration:none;background:var(--text);color:var(--bg);font-weight:600;padding:13px 22px;border-radius:999px;border:0;cursor:pointer;transition:transform .2s}
+:root[data-style="champagne"] .btn,:root[data-style="sea"] .btn{border-radius:var(--rad)}
+.btn:hover{transform:translateY(-2px)}
+.ghost{color:var(--text);text-underline-offset:5px}
+
+/* demo frame */
+.demo{margin-top:30px;background:var(--bg2);border:1px solid var(--line);border-radius:var(--rad);overflow:hidden}
+.tabs{display:flex;border-bottom:1px solid var(--line);overflow-x:auto}
+.tabs button{flex:1;min-width:max-content;background:none;border:0;padding:14px 16px;cursor:pointer;color:var(--muted);font-size:.95rem;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+.tabs button[aria-selected="true"]{color:var(--text);border-bottom-color:var(--c1)}
+.pane{padding:20px;min-height:300px}
+.pane[hidden]{display:none}
+.tag{font-size:.82rem;color:var(--muted)}
+
+/* setup planner */
+.plan{display:grid;gap:8px}
+.plan label{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;align-items:start;padding:10px 12px;border:1px solid var(--line);border-radius:calc(var(--rad)*.6);cursor:pointer;transition:border-color .2s,background .2s}
+.plan input{margin-top:5px;accent-color:var(--c1);width:16px;height:16px}
+.plan b{font-weight:500}
+.plan small{grid-column:2;color:var(--muted);font-size:.9rem}
+.plan label:has(input:checked){border-color:var(--c1);background:color-mix(in srgb,var(--c1) 9%,transparent)}
+.sum{margin-top:16px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.sum p{color:var(--muted);font-size:.95rem;max-width:22em}
+.sum p b{color:var(--text);font-weight:500}
+.quote{background:var(--c1);color:var(--on-c1);text-decoration:none;border-radius:999px;padding:10px 18px;font-weight:600}
+
+/* ordering */
+.menuitem{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding-block:10px;border-bottom:1px solid var(--line)}
+.menuitem .price{color:var(--muted);font-variant-numeric:tabular-nums}
+.qty{display:flex;align-items:center;gap:8px}
+.qty button{width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:var(--bg3);cursor:pointer;line-height:1}
+.qty button:hover{border-color:var(--c1)}
+.qty output{min-width:1.2em;text-align:center;font-variant-numeric:tabular-nums}
+.order-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:16px;flex-wrap:wrap}
+.total{font-family:var(--display);font-size:1.7rem;font-variant-numeric:tabular-nums}
+.place{background:var(--c1);color:var(--on-c1);border:0;border-radius:999px;padding:10px 18px;font-weight:600;cursor:pointer}
+.place:disabled{opacity:.4;cursor:default}
+.placed{margin-top:12px;color:var(--c1);min-height:1.6em}
+.bump{animation:bump .35s}
+@keyframes bump{40%{transform:scale(1.15)}}
+
+/* assistant */
+.lang{display:flex;gap:6px;margin-bottom:12px}
+.lang button{background:none;border:1px solid var(--line);border-radius:999px;padding:4px 12px;cursor:pointer;color:var(--muted);font-size:.88rem}
+.lang button[aria-pressed="true"]{color:var(--on-c1);background:var(--c1);border-color:var(--c1)}
+.chat{display:flex;flex-direction:column;gap:8px;min-height:130px}
+.bubble{max-width:82%;padding:9px 14px;border-radius:16px;animation:pop .3s ease-out both}
+.bubble.me{align-self:flex-end;background:var(--bg3);border-bottom-right-radius:4px}
+.bubble.bot{align-self:flex-start;background:color-mix(in srgb,var(--c1) 14%,transparent);border:1px solid color-mix(in srgb,var(--c1) 40%,transparent);border-bottom-left-radius:4px}
+@keyframes pop{from{transform:translateY(6px) scale(.97);opacity:.4}}
+.asks{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.asks button{background:none;border:1px dashed var(--line);border-radius:12px;padding:7px 12px;cursor:pointer;font-size:.92rem}
+.asks button:hover{border-color:var(--c1)}
+
+/* AI & Data */
+.caps{margin-top:26px;display:grid}
+.caps div{display:grid;gap:2px 20px;padding-block:14px;border-top:1px solid var(--line)}
+.caps div:last-child{border-bottom:1px solid var(--line)}
+@media (min-width:640px){.caps div{grid-template-columns:12rem 1fr}}
+.caps b{font-weight:500}
+.caps span{color:var(--muted)}
+.record{margin-top:24px;padding:18px 20px;border-left:2px solid var(--c2);background:color-mix(in srgb,var(--c2) 7%,transparent);border-radius:0 var(--rad) var(--rad) 0}
+.record p{color:var(--text)}
+.churn{padding:20px}
+.churn svg{width:100%;height:auto;display:block}
+.churn svg text{font-family:var(--body);font-size:11px;fill:var(--muted)}
+.churn svg .ax{stroke:var(--line)}
+.churn svg .th{stroke:var(--c2);stroke-dasharray:4 4}
+.churn circle{transition:r .3s, opacity .3s;fill:var(--muted);opacity:.45}
+.churn circle.on{fill:var(--c2);opacity:1}
+.range{display:grid;gap:6px;margin-top:12px}
+.range input{width:100%;accent-color:var(--c2)}
+.range-row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.callout{font-family:var(--display);font-size:1.4rem;font-variant-numeric:tabular-nums}
+.callout b{font-weight:500;color:var(--c2)}
+.terms{margin-top:18px;color:var(--muted);font-size:.98rem}
+
+/* apps */
+.apps{margin-top:28px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.app{background:none;border:0;padding:0;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:8px}
+.icon{width:100%;max-width:96px;aspect-ratio:1;border-radius:24%;display:grid;place-items:center;transition:transform .12s ease-out, box-shadow .25s, border-color .25s;background:linear-gradient(145deg,var(--bg3),var(--bg2));border:1px solid var(--line);color:var(--c3)}
+.app[aria-pressed="true"] .icon{border-color:var(--c3);box-shadow:0 0 0 1px var(--c3),0 10px 40px -12px var(--c3)}
+.icon svg{width:56%;height:auto}
+.app span{font-size:.85rem;color:var(--muted);text-align:center}
+.appinfo{margin-top:20px;border-left:2px solid var(--c3);padding-left:16px}
+.appinfo h3{font-size:1.6rem}
+.appinfo p{color:var(--muted);margin-top:6px}
+.more-apps{margin-top:16px;font-size:.95rem;color:var(--muted)}
+
+/* venn */
+.venn svg{width:100%;max-width:420px;height:auto;display:block;margin-top:24px;touch-action:manipulation;cursor:crosshair}
+.venn .v{opacity:.3;transition:opacity .3s}
+.venn .v1{fill:var(--c1)}.venn .v2{fill:var(--c2)}.venn .v3{fill:var(--c3)}
+.venn text{font-family:var(--body);font-size:13px;fill:var(--text)}
+.venn #mark{fill:var(--text)}
+.pick{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.pick button{background:none;border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;color:var(--muted);font-size:.88rem}
+.pick button[aria-pressed="true"]{color:var(--text);border-color:var(--text)}
+.overlap{margin-top:16px;min-height:6.5em}
+.overlap h3{font-size:1.45rem}
+.overlap p{color:var(--muted);margin-top:6px}
+
+/* why */
+.why{margin-top:26px;display:grid}
+.why button{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding-block:16px;border-top:1px solid var(--line);width:100%}
+.why button:last-child{border-bottom:1px solid var(--line)}
+.why button:focus-visible{outline:2px solid var(--text);outline-offset:4px}
+.why .h{font-family:var(--display);font-weight:var(--hw);letter-spacing:var(--hls);font-size:1.45rem;line-height:1.1}
+.why .plus{width:22px;height:22px;position:relative;align-self:center;transition:transform .35s}
+.why .plus::before,.why .plus::after{content:"";position:absolute;left:0;right:0;top:10px;height:1.5px;background:var(--muted)}
+.why .plus::after{transform:rotate(90deg)}
+.why button[aria-expanded="true"] .plus{transform:rotate(45deg)}
+.why .body{grid-column:1/-1;display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s cubic-bezier(.2,.7,.1,1)}
+.why button[aria-expanded="true"] .body{grid-template-rows:1fr}
+.why .body > span{overflow:hidden;color:var(--muted)}
+.timeline{list-style:none;margin:30px 0 0;padding:0;position:relative}
+.timeline::before{content:"";position:absolute;left:4.6rem;top:6px;bottom:6px;width:1px;background:var(--line)}
+.timeline li{display:grid;grid-template-columns:4.6rem 1fr;gap:20px;padding-block:8px;position:relative}
+.timeline li::after{content:"";position:absolute;left:calc(4.6rem - 4px);top:16px;width:9px;height:9px;border-radius:50%;background:var(--c2)}
+.timeline time{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.95rem;padding-top:2px}
+.timeline span{padding-left:6px}
+
+.contact h2{max-width:12em}
+.mail{user-select:all}
+.fine{margin-top:12px;font-size:.82rem;color:var(--muted)}
+.fine a{color:var(--text)}
+.foot{position:relative;z-index:1;border-top:1px solid var(--line);padding-block:28px 96px;color:var(--muted);font-size:.9rem;display:flex;flex-wrap:wrap;gap:8px 24px;padding-left:max(20px, env(safe-area-inset-left,0px));padding-right:max(20px, env(safe-area-inset-right,0px));background:var(--bg)}
+@media (min-width:900px){.foot{padding-left:7vw}}
+
+/* style switcher */
+[data-style="champagne"] h1,[data-style="champagne"] h2,[data-style="champagne"] h3,[data-style="champagne"] .brand,[data-style="champagne"] .why .h{font-variation-settings:"opsz" 96;letter-spacing:-.01em}
+body.grabbing{cursor:grabbing;user-select:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+
+/* app hover */
+.app:hover,.app:focus-visible{animation:bob 1.5s ease-in-out infinite}
+.app:hover .icon,.app:focus-visible .icon{border-color:var(--c3);box-shadow:0 16px 30px -14px var(--c3),0 0 0 1px var(--c3)}
+.app:hover span:last-child{color:var(--text)}
+@keyframes bob{50%{transform:translateY(-2px)}}
+/* app pages */
+.appinfo a.open{display:inline-block;margin-top:10px;color:var(--c3);font-weight:500}
+html.view-open{overflow:hidden}
+.appview{position:fixed;inset:0;z-index:60;overflow-y:auto;background:var(--bg);color:var(--text);padding-top:env(safe-area-inset-top,0px)}
+.appview[hidden]{display:none}
+.av{max-width:1040px;margin:0 auto;padding-block:28px 72px;padding-left:max(20px, env(safe-area-inset-left,0px));padding-right:max(20px, env(safe-area-inset-right,0px))}
+.av .back{display:inline-block;color:var(--muted);text-decoration:none;font-size:.95rem;padding-block:6px}
+.av .back:hover{color:var(--text)}
+.av-hero{display:grid;gap:36px;margin-top:28px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:860px){.av-hero{grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:start}}
+.av-eyebrow{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--c3)}
+.av h1{font-size:clamp(2.3rem,6vw,3.8rem);margin-top:10px}
+.av h1 span{color:var(--muted)}
+.av-desc{color:var(--muted);margin-top:18px;max-width:34rem}
+.av-status{display:inline-block;margin-top:20px;padding:5px 14px;border:1px solid var(--c3);border-radius:99px;font-size:.88rem;color:var(--text)}
+.av-links{margin-top:20px;display:flex;flex-wrap:wrap;gap:8px 20px;font-size:.95rem;color:var(--muted)}
+.av-links a{color:var(--text)}
+.av-btn{display:inline-block;margin-top:22px;padding:12px 22px;background:var(--text);color:var(--bg);border-radius:99px;text-decoration:none;font-weight:500}
+.av-shots{display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap}
+.av-shots img{display:block;max-width:100%;height:auto;border-radius:22px;border:1px solid var(--line);background:var(--bg2)}
+.av-shots .phone{width:min(100%,260px)}
+.av-shots .second{width:min(100%,200px)}
+.av-shots .wide{width:100%}
+.av-steps{display:grid;gap:14px;margin-top:48px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:760px){.av-steps{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.av-steps div{background:var(--bg2);border:1px solid var(--line);border-radius:var(--rad);padding:18px 20px}
+.av-steps b{font-family:var(--display);font-weight:var(--hw);font-size:1.15rem;display:block}
+.av-steps p{color:var(--muted);margin-top:6px;font-size:.95rem}
+</style>
+</head>
+<body>
+
+<canvas id="net" aria-hidden="true"></canvas>
+
+<div class="appview" id="appview" hidden role="region" aria-label="App page"></div>
+<header class="top"><div class="in">
+  <a class="brand" href="#hero">Ziyue Li</a>
+  <nav class="menu" aria-label="Sections">
+    <a href="#biz" data-for="biz">Small business</a><a href="#ai" data-for="ai">AI &amp; Data</a><a href="#apps" data-for="apps">Products</a><a href="#why" data-for="why">Why me</a><a href="#contact" data-for="contact">Contact</a>
+  </nav>
+  <button class="themebtn" id="themebtn" type="button" aria-label="Switch to Daylight theme" title="Switch theme"><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+</div></header>
+
+<main>
+  <section class="sec hero" id="hero" data-mode="globe">
+    <div class="col">
+      <h1>Ten years of machine learning and data pipelines, now building for your business.</h1>
+      <p class="lede">I'm Ziyue Li, an independent technology consultant and software developer in Tampa. Small businesses hire me to find where <strong>technology and AI</strong> can save them time and money, and to help them set it up. Larger companies bring me in <strong>on contract</strong> for AI, machine learning and data pipeline work.</p>
+      <ul class="proof">
+        <li>Applied ML since 2016</li><li>Data pipelines, end to end</li><li>AI practitioner</li><li>Engineering and analysis</li><li>Apps and internal tools</li><li>System designer</li>
+      </ul>
+      <div class="cta"><a class="btn" href="https://calendar.app.google/rnUERQypoLeDZwRb8" target="_blank" rel="noopener">Book a 30-minute call</a><a class="ghost" href="#biz">See what I do</a></div>
+      <p class="fine">Booking uses Google Calendar. <a href="privacy/">Privacy</a></p>
+    </div>
+  </section>
+
+  <section class="sec" id="biz" data-mode="store" style="--sec:var(--c1)">
+    <div class="col">
+      <span class="for">For <b>small businesses</b></span>
+      <h2>Use technology and AI to run your business better</h2>
+      <p class="lede">I find where AI and software can save you the most time or money, then help you set it up and show your team how to use it. You get a plain answer first and a quote before any work starts.</p>
+      <div class="caps">
+        <div><b>Find the savings</b><span>A short review of how work flows through your business, with a list of what to change.</span></div>
+        <div><b>Put AI to work</b><span>Customer replies, quotes, reports and paperwork, set up with your own data.</span></div>
+        <div><b>Build and support</b><span>Ordering, payments, website and apps, plus training and help afterward.</span></div>
+      </div>
+      <div class="cta" style="margin-top:20px"><a class="btn" href="#contact">Get in touch</a></div>
+    </div>
+  </section>
+
+  <section class="sec" id="ai" data-mode="neural" style="--sec:var(--c2)">
+    <div class="col">
+      <span class="for">For <b>data teams and larger companies</b></span>
+      <h2>AI, data pipeline and machine learning</h2>
+      <p class="lede">I join your team by the hour or by the project, on any stage from raw data to a running product.</p>
+      <div class="caps">
+        <div><b>Data engineering</b><span>ELT and CDC pipelines, warehouses and data models on Airflow, Snowflake, dbt and AWS.</span></div>
+        <div><b>Machine learning</b><span>Many kinds of models, from a feasibility check to production.</span></div>
+        <div><b>MLOps</b><span>Docker images, scheduled training and scoring, monitoring.</span></div>
+        <div><b>Data analysis and visualization</b><span>Analysis, dashboards and charts that answer your team's questions.</span></div>
+        <div><b>AI features and apps</b><span>LLM assistants, search over your documents, speech and translation, and the apps people use them through.</span></div>
+      </div>
+      <div class="record"><p>I have worked end to end across this whole process, from bringing in the data to building models, running them in production and building the apps on top. So I can help with whichever part you are stuck on or need help with.</p></div>
+    </div>
+  </section>
+
+  <section class="sec" id="apps" data-mode="phone" style="--sec:var(--c3)">
+    <div class="col">
+      <span class="for">For <b>everyone</b></span>
+      <h2>Apps and tools I build and run</h2>
+      <p class="lede">Shipping my own products keeps me close to what users touch. Tap an icon, then open its page.</p>
+      <div class="apps" id="applist"></div>
+      <div class="appinfo" id="appinfo" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="links" data-mode="venn">
+    <div class="col">
+      <h2>How the three connect</h2>
+      <p class="lede">Most of my projects sit where these areas meet.</p>
+      <div class="venn">
+        <svg id="venn" viewBox="0 0 420 380" role="img" aria-label="Three overlapping circles: Business, AI and Data, Products.">
+          <circle class="v v1" cx="210" cy="140" r="115"/><circle class="v v2" cx="145" cy="250" r="115"/><circle class="v v3" cx="275" cy="250" r="115"/>
+          <text x="210" y="70" text-anchor="middle">Business</text><text x="95" y="300" text-anchor="middle">AI &amp; Data</text><text x="325" y="300" text-anchor="middle">Products</text>
+          <circle id="mark" r="6" cx="-20" cy="-20"/>
+        </svg>
+      </div>
+      <div class="pick" id="pick" role="group" aria-label="Overlaps">
+        <button data-k="ba">Business and AI</button><button data-k="ap">AI and Products</button><button data-k="bp">Business and Products</button><button data-k="all">All three</button>
+      </div>
+      <div class="overlap" id="overlap" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="why" data-mode="detector" style="--sec:var(--c2)">
+    <div class="col">
+      <h2>Why work with me</h2>
+      <div class="why" id="whylist">
+        <button aria-expanded="true"><span class="h">Ten years of machine learning and data engineering</span><i class="plus"></i><span class="body"><span>Since 2016, building models and data pipelines that run in production.</span></span></button>
+        <button aria-expanded="false"><span class="h">A physicist's training</span><i class="plus"></i><span class="body"><span>Physics taught me to break a messy problem into parts, test each assumption against the data, and explain the result plainly. I bring the same habits to your data and your business questions.</span></span></button>
+        <button aria-expanded="false"><span class="h">The whole process, end to end</span><i class="plus"></i><span class="body"><span>I understand every part of the process, from raw data to the running system, so I see how the pieces fit together and can help with any part to make the whole thing work.</span></span></button>
+        <button aria-expanded="false"><span class="h">Apps and internal tools</span><i class="plus"></i><span class="body"><span>I have built enterprise internal tools and apps that use automation, machine learning models and AI to simplify other teams' work, as well as apps for customers. I handle the whole app, from design and code to release, so I can build what your customers or staff use, not only the data behind it.</span></span></button>
+        <button aria-expanded="false"><span class="h">One person, first call to handover</span><i class="plus"></i><span class="body"><span>The person you talk to on the first call writes the code and walks you through it at the end.</span></span></button>
+        <button aria-expanded="false"><span class="h">English and Mandarin</span><i class="plus"></i><span class="body"><span>I work with clients and their customers in either language.</span></span></button>
+      </div>
+      <ol class="timeline">
+        <li><time>2008 to 2015</time><span>Research and teaching assistant at NC State, particle physics, Ph.D. in 2015</span></li>
+        <li><time>2016</time><span>Data Science Fellow at The Data Incubator</span></li>
+        <li><time>2016 to 2020</time><span>Data Scientist at First.io. I was the only data scientist on the team.</span></li>
+        <li><time>2020 to 2026</time><span>Data Scientist at RE/MAX: models, data pipelines, and apps with AI tools that automate other teams' manual work</span></li>
+        <li><time>2026</time><span>Independent consultant, contractor and app developer</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec contact" id="contact" data-mode="hello">
+    <div class="col">
+      <h2>Tell me what you want to stop doing by hand.</h2>
+      <p class="lede">Or what you want to improve, fix, or get out of your data. In a 30-minute call we can tell whether it is a one-time setup, a two-week project or a longer contract.</p>
+      <div class="cta"><a class="btn" href="https://calendar.app.google/rnUERQypoLeDZwRb8" target="_blank" rel="noopener">Book a 30-minute call</a><span style="color:var(--muted)">or email <a class="mail" href="mailto:ziyueli.business@gmail.com">ziyueli.business@gmail.com</a></span></div>
+      <p style="margin-top:18px"><a href="https://linkedin.com/in/ziyueli" rel="me" style="color:var(--text)">Connect on LinkedIn</a></p>
+      <p class="fine">Your name and email are used only to arrange and run the call. <a href="privacy/">Privacy</a></p>
+    </div>
+  </section>
+</main>
+<footer class="foot"><span>Ziyue Li, Tampa, Florida</span><a href="https://github.com/feynlee">GitHub</a><a href="https://linkedin.com/in/ziyueli" rel="me">LinkedIn</a><a href="resume/">Resume</a><a href="privacy/">Privacy</a><a href="#" data-cookie-settings>Cookie settings</a></footer>
+
+
+<script>
+(function(){
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const root=document.documentElement;
+/* ---------- styles ---------- */
+let CAT=[[255,196,107],[111,227,240],[185,166,255]],GLOW=true,INK=[232,235,244];
+const hex=h=>{h=h.trim().replace('#','');return[parseInt(h.slice(0,2),16),parseInt(h.slice(2,4),16),parseInt(h.slice(4,6),16)]};
+function readStyle(){const cs=getComputedStyle(root);CAT=['--c1','--c2','--c3'].map(v=>hex(cs.getPropertyValue(v)));INK=hex(cs.getPropertyValue('--text'));GLOW=root.dataset.style!=='daylight';}
+function setStyle(s){if(s==='midnight')delete root.dataset.style;else root.dataset.style=s;try{localStorage.setItem('zl-style',s)}catch(e){}
+  const tb=document.getElementById('themebtn');if(tb)tb.setAttribute('aria-label',s==='daylight'?'Switch to Midnight theme':'Switch to Daylight theme');readStyle();}
+document.getElementById('themebtn').addEventListener('click',()=>setStyle(root.dataset.style==='daylight'?'midnight':'daylight'));
+let saved='midnight';try{saved=localStorage.getItem('zl-style')||'midnight'}catch(e){}if(saved!=='daylight')saved='midnight';
+setStyle(saved);
+
+/* ---------- particles ---------- */
+// Thousands of particles that fly apart and re-form into objects, systems and diagrams.
+// Each shape is drawn once into an offscreen canvas; its lit pixels become the targets.
+const cv=document.getElementById('net'),cx=cv.getContext('2d');
+let flyWay=1,way=1,scrollPush=0;
+let E=0,Et=0,holdE=0,flyT=-1e9,flyDir=1,floor=[],zShift=0;
+const BINS=96,BINK=BINS/6.2832*.9999,edgeD=new Float32Array(BINS+1),edgeP=new Array(BINS+1).fill(null);
+let FX='threads',drag=null,uYaw=0,uTilt=0,vYaw=0,vTilt=0,near=[];
+let W=0,H=0,D=1,N=0,P=[],mode='',pointer={x:-999,y:-999},pulses=[],packets=[],hubs=[];
+const rnd=(a,b)=>a+Math.random()*(b-a);
+const view={yaw:0,tilt:.2};
+const SWAY={globe:{spin:.18,tilt:.3},store:{base:-.18,sway:.3,tilt:.36},neural:{base:.5,sway:.45,tilt:.2},laptop:{base:.35,sway:.45,tilt:.3},pipeline:{base:-.15,sway:.22,tilt:.08},
+  chart:{base:.25,sway:.2,tilt:.12},phone:{base:-.5,sway:.55,tilt:.1},venn:{base:0,sway:.38,tilt:.1,hold:4.5},timeline:{base:.15,sway:.2,tilt:.1},detector:{base:.55,sway:.5,tilt:.22},hello:{base:0,sway:.18,tilt:.05}};
+function frame(){const wide=W>=900;return{cx:wide?W*.71:W*.5,cy:wide?H*.52:H*.25,s:wide?Math.min(W*.21,H*.34):Math.min(W*.4,H*.18)};}
+const S=512,off=document.createElement('canvas');off.width=off.height=S;const g=off.getContext('2d',{willReadFrequently:true});
+const R='#f00',G='#0f0',B='#00f';
+const fontOf=()=>getComputedStyle(document.documentElement).getPropertyValue('--display').trim()||'sans-serif';
+function rr(x,y,w,h,r){g.beginPath();g.roundRect(x,y,w,h,r);}
+const DRAW={
+  store(){ // a small business as a system: one hub, six connected tools on a ring
+    const cx=256,cy=256,R0=178,nodes=[];for(let i=0;i<6;i++){const a=-Math.PI/2+i*Math.PI/3;nodes.push([cx+Math.cos(a)*R0,cy+Math.sin(a)*R0]);}
+    g.lineCap='round';g.lineJoin='round';
+    g.strokeStyle=B;g.lineWidth=4;g.setLineDash([10,12]);g.beginPath();g.arc(cx,cy,R0,0,7);g.stroke();g.setLineDash([]);
+    g.strokeStyle=G;g.lineWidth=4;nodes.forEach(([x,y])=>{const d=Math.hypot(x-cx,y-cy),ux=(x-cx)/d,uy=(y-cy)/d;g.beginPath();g.moveTo(cx+ux*58,cy+uy*58);g.lineTo(x-ux*50,y-uy*50);g.stroke();});
+    g.strokeStyle=R;g.lineWidth=9;g.beginPath();g.arc(cx,cy,48,0,7);g.stroke();g.fillStyle=R;
+    for(let k=0;k<8;k++){const a=k*Math.PI/4;g.save();g.translate(cx+Math.cos(a)*52,cy+Math.sin(a)*52);g.rotate(a);g.fillRect(-6,-7,14,14);g.restore();}
+    g.beginPath();g.arc(cx,cy,18,0,7);g.fill();
+    const cols=[R,G,B,R,G,B];
+    nodes.forEach(([x,y],i)=>{const c=cols[i];g.strokeStyle=c;g.fillStyle=c;g.lineWidth=6;rr(x-44,y-44,88,88,18);g.stroke();g.lineWidth=5;
+      if(i===0){rr(x-28,y-22,56,44,6);g.stroke();g.beginPath();g.moveTo(x-28,y-10);g.lineTo(x+28,y-10);g.stroke();[-20,-12,-4].forEach(d=>{g.beginPath();g.arc(x+d,y-16,2.5,0,7);g.fill();});}
+      else if(i===1){g.lineWidth=7;g.beginPath();g.moveTo(x-6,y-22);g.lineTo(x-26,y);g.lineTo(x-6,y+22);g.moveTo(x+6,y-22);g.lineTo(x+26,y);g.lineTo(x+6,y+22);g.stroke();}
+      else if(i===2){rr(x-26,y-24,52,48,6);g.stroke();g.beginPath();g.moveTo(x-26,y-12);g.lineTo(x+26,y-12);g.stroke();for(let r=0;r<2;r++)for(let q=0;q<3;q++){g.fillRect(x-17+q*14,y-4+r*14,7,7);}}
+      else if(i===3){rr(x-28,y-19,56,38,6);g.stroke();g.fillRect(x-28,y-10,56,8);g.fillRect(x-18,y+6,16,5);}
+      else if(i===4){rr(x-14,y-26,28,52,7);g.stroke();g.beginPath();g.arc(x,y+17,3,0,7);g.fill();}
+      else{g.fillRect(x-24,y+4,10,18);g.fillRect(x-7,y-8,10,30);g.fillRect(x+10,y-20,10,42);}});},
+  neural(){const X=[80,196,316,432],C=[3,5,5,2],pos=X.map((x,i)=>Array.from({length:C[i]},(_,j)=>[x,256+(j-(C[i]-1)/2)*84]));
+    g.strokeStyle=G;g.lineWidth=2.4;for(let l=0;l<3;l++)for(const a of pos[l])for(const b of pos[l+1]){g.beginPath();g.moveTo(...a);g.lineTo(...b);g.stroke();}
+    pos.forEach((L,i)=>L.forEach(([x,y])=>{g.fillStyle=i===0?B:i===3?R:G;g.beginPath();g.arc(x,y,22,0,7);g.fill();}));},
+  pipeline(){g.lineWidth=10;g.textAlign='center';g.textBaseline='middle';g.font=`600 34px ${fontOf()}`;
+    [[20,B],[192,G],[364,R]].forEach(([x,c],k)=>{g.strokeStyle=c;g.fillStyle=c;g.lineWidth=10;rr(x,196,128,120,18);g.stroke();const cx=x+64;
+      if(k===0){g.lineWidth=8;for(let r=0;r<3;r++){g.beginPath();g.moveTo(cx-36,228+r*28);g.lineTo(cx+36,228+r*28);g.stroke();}}
+      else if(k===1){const P=[[cx-34,236],[cx-34,276],[cx+34,256]];g.lineWidth=5;g.beginPath();g.moveTo(...P[0]);g.lineTo(...P[2]);g.lineTo(...P[1]);g.stroke();P.forEach(([a,b])=>{g.beginPath();g.arc(a,b,12,0,7);g.fill();});}
+      else{g.beginPath();g.moveTo(cx-20,226);g.lineTo(cx+28,256);g.lineTo(cx-20,286);g.closePath();g.fill();}});g.lineWidth=10;
+    g.strokeStyle=G;g.fillStyle=G;[[150,190],[322,362]].forEach(([a,b])=>{g.beginPath();g.moveTo(a,256);g.lineTo(b-14,256);g.stroke();g.beginPath();g.moveTo(b,256);g.lineTo(b-22,240);g.lineTo(b-22,272);g.fill();});
+    g.strokeStyle=B;g.lineWidth=9;g.beginPath();g.ellipse(84,110,50,16,0,0,7);g.stroke();g.beginPath();g.moveTo(34,110);g.lineTo(34,160);g.ellipse(84,160,50,16,0,Math.PI,0,true);g.lineTo(134,110);g.stroke();
+    g.beginPath();g.moveTo(84,178);g.lineTo(84,190);g.stroke();
+    g.strokeStyle=R;g.lineWidth=8;rr(390,370,76,110,12);g.stroke();g.beginPath();g.moveTo(428,316);g.lineTo(428,362);g.stroke();},
+  chart(){g.strokeStyle=G;g.lineWidth=8;g.beginPath();g.moveTo(56,60);g.lineTo(56,456);g.lineTo(470,456);g.stroke();
+    const h=[90,150,124,210,262,330];h.forEach((v,i)=>{g.fillStyle=i%3===0?B:i%3===1?G:R;g.fillRect(84+i*64,450-v,40,v);});
+    g.strokeStyle=R;g.lineWidth=9;g.beginPath();h.forEach((v,i)=>{const x=104+i*64,y=420-v-30;i?g.lineTo(x,y):g.moveTo(x,y);});g.stroke();
+    h.forEach((v,i)=>{g.fillStyle=R;g.beginPath();g.arc(104+i*64,390-v,12,0,7);g.fill();});},
+  phone(){g.strokeStyle=B;g.lineWidth=13;rr(146,24,220,464,40);g.stroke();g.fillStyle=B;rr(222,48,68,14,7);g.fill();
+    for(let r=0;r<4;r++)for(let c=0;c<3;c++){g.fillStyle=[R,G,B][(r+c)%3];rr(178+c*58,92+r*70,42,42,11);g.fill();}
+    g.fillStyle=G;rr(170,404,172,56,18);g.fill();g.fillStyle='#000';for(let c=0;c<3;c++){rr(186+c*52,414,36,36,9);g.fill();}},
+  venn(){g.lineWidth=18;[[256,186,R],[186,310,G],[326,310,B]].forEach(([x,y,c])=>{g.strokeStyle=c;g.beginPath();g.arc(x,y,124,0,7);g.stroke();});},
+  timeline(){g.strokeStyle=G;g.lineWidth=8;g.beginPath();g.moveTo(30,290);g.lineTo(482,290);g.stroke();
+    const X=[66,180,296,416],Y=['2014','2016','2022','2026'];g.textAlign='center';g.font=`600 46px ${fontOf()}`;
+    X.forEach((x,i)=>{g.fillStyle=R;g.beginPath();g.arc(x,290,18,0,7);g.fill();g.fillStyle=B;g.font=`700 54px ${fontOf()}`;g.fillText(Y[i],x+(i===0?14:i===3?-14:0),i%2?430:360);});
+    g.strokeStyle=R;g.lineWidth=7;g.beginPath();g.moveTo(66,230);[180,296,416].forEach((x,i)=>g.lineTo(x,200-i*50));g.stroke();
+    g.fillStyle=R;g.beginPath();g.moveTo(436,74);g.lineTo(400,90);g.lineTo(426,112);g.fill();},
+  hello(){g.textAlign='center';g.textBaseline='middle';g.fillStyle=R;g.font=`600 132px ${fontOf()}`;g.fillText('Hello',256,170);
+    g.fillStyle=G;g.font=`600 150px "PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif`;g.fillText('你好',256,360);}
+};
+/* ---------- real 3D models, built from parts. Every part carries a vector it travels along when the model is taken apart. ---------- */
+const pickOf=a=>a[Math.floor(Math.random()*a.length)];
+const boxPt=(cx,cy,cz,w,h,d,edge=.55)=>()=>{const hx=w/2,hy=h/2,hz=d/2,s1=Math.random()<.5?-1:1,s2=Math.random()<.5?-1:1;
+  if(Math.random()<edge){const r=Math.random()*(w+h+d),t=rnd(-1,1);return r<w?[cx+t*hx,cy+s1*hy,cz+s2*hz]:r<w+h?[cx+s1*hx,cy+t*hy,cz+s2*hz]:[cx+s1*hx,cy+s2*hy,cz+t*hz];}
+  const A=[h*d,w*d,w*h],r=Math.random()*(A[0]+A[1]+A[2]),u=rnd(-1,1),v=rnd(-1,1);
+  return r<A[0]?[cx+s1*hx,cy+u*hy,cz+v*hz]:r<A[0]+A[1]?[cx+u*hx,cy+s1*hy,cz+v*hz]:[cx+u*hx,cy+v*hy,cz+s1*hz];};
+// random point on a rounded-rectangle outline in the xy plane
+function rr2(cx,cy,w,h,r){const sw=w-2*r,sh=h-2*r,per=2*sw+2*sh+6.283*r;let t=Math.random()*per;
+  if(t<sw)return[cx-sw/2+t,cy-h/2];t-=sw;if(t<sw)return[cx-sw/2+t,cy+h/2];t-=sw;
+  if(t<sh)return[cx-w/2,cy-sh/2+t];t-=sh;if(t<sh)return[cx+w/2,cy-sh/2+t];
+  const a=rnd(0,1.5708),qx=Math.random()<.5?-1:1,qy=Math.random()<.5?-1:1;return[cx+qx*(sw/2+Math.cos(a)*r),cy+qy*(sh/2+Math.sin(a)*r)];}
+const seg=(a,b)=>()=>{const t=Math.random();return[a[0]+(b[0]-a[0])*t,a[1]+(b[1]-a[1])*t,a[2]+(b[2]-a[2])*t];};
+const ZERO=[0,0,0];
+function build(parts,n){const tot=parts.reduce((a,p)=>a+p.w,0),out=[];
+  for(const p of parts){const k=Math.round(n*p.w/tot);for(let i=0;i<k;i++){const q=p.pt(),e=typeof p.ex==='function'?p.ex(q):p.ex;const f=p.fl||ZERO;out.push([q[0],q[1],q[2],p.c,e[0],e[1],e[2],f[0],f[1],f[2]]);}}
+  while(out.length<n)out.push(pickOf(out).slice());out.length=n;
+  for(let i=out.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[out[i],out[j]]=[out[j],out[i]];}return out;}
+const MODEL={
+  // the small-business scene: website, app, data store and revenue chart, joined by pipes that carry moving data
+  store(n){const Y0=.2,FL=.46+Y0;
+    const xf=(arr,sc,yaw,t,g)=>{const c=Math.cos(yaw),s_=Math.sin(yaw);return arr.map(r=>[(r[0]*c+r[2]*s_)*sc+t[0],r[1]*sc+t[1],(-r[0]*s_+r[2]*c)*sc+t[2],r[3],(r[4]*c+r[6]*s_)*sc*.9+g[0],r[5]*sc*.9+g[1],(-r[4]*s_+r[6]*c)*sc*.9+g[2],0,0,0]);};
+    const lap=xf(MODEL.laptop(Math.round(n*.3)),.5,-.38,[-.66,FL-.27,-.12],[-.3,0,-.18]);
+    const pho=xf(MODEL.phone(Math.round(n*.17)),.4,.32,[.78,FL-.37,-.1],[.3,0,-.18]);
+    const parts=[];
+    // data store: three stacked drums
+    for(let i=0;i<3;i++){const cy=FL-.07-i*.17;parts.push({w:1.5,c:1,ex:[0,-(i)*.14,.12],pt:()=>{const a=rnd(0,6.283),r=Math.random();if(r<.7)return[Math.cos(a)*.21,cy+(r<.35?-.06:.06),.5+Math.sin(a)*.21*.999];const b=Math.floor(Math.random()*14)/14*6.283;return[Math.cos(b)*.21,cy+rnd(-.06,.06),.5+Math.sin(b)*.21];}});}
+    // revenue chart on a panel above the data store
+    const CZ=.5,cb=FL-.72,H_=[.12,.2,.17,.3,.42],cex=[0,-.26,.1];
+    parts.push({w:2,c:2,ex:cex,pt:()=>{const p=rr2(0,cb-.26,1.0,.66,.05);return[p[0],p[1],CZ];}});
+    H_.forEach((h,i)=>parts.push({w:.9+h*2,c:i%2?1:0,ex:[0,-.26-h*.5,.1+.08*i],pt:boxPt(-.34+i*.17,cb-.02-h/2,CZ,.1,h,.08,.7)}));
+    for(let i=0;i<4;i++){const a=[-.34+i*.17,cb-.1-H_[i],CZ-.06],b=[-.34+(i+1)*.17,cb-.1-H_[i+1],CZ-.06];parts.push({w:.35,c:0,ex:[0,-.3,-.16],pt:seg(a,b)});}
+    parts.push({w:.3,c:0,ex:[0,-.3,-.16],pt:()=>{const t=Math.random(),u=rnd(-1,1)*(1-t);return[.34+.04-t*.08+u*.03,cb-.1-.42-.03+t*.06+u*.05,CZ-.06];}});
+    // base plate
+    parts.push({w:2,c:2,ex:[0,.2,0],pt:()=>{const p=rr2(.05,.15,2.3,1.35,.12);return[p[0],FL+.02,p[1]];}});
+    // pipes: a faint guide plus dots that travel along it
+    const P_=[[[-.66,FL,.1],[-.66,FL,.5]],[[-.66,FL,.5],[-.23,FL,.5]],[[.78,FL,.05],[.78,FL,.5]],[[.78,FL,.5],[.23,FL,.5]],[[0,FL-.5,.5],[0,cb+.09,.5]],[[-.66,FL,-.42],[.78,FL,-.42]]];
+    P_.forEach(([a,b])=>{const L=Math.hypot(b[0]-a[0],b[1]-a[1],b[2]-a[2]);parts.push({w:L*.9,c:1,ex:ZERO,pt:seg(a,b)});
+      for(const off of [-.014,.014])parts.push({w:L*.55,c:0,ex:ZERO,fl:[b[0]-a[0],b[1]-a[1],b[2]-a[2]],pt:()=>[a[0]+(a[2]===b[2]?0:off),a[1]+(a[1]===b[1]?0:0),a[2]+(a[2]===b[2]?off:0)]});});
+    const rest=build(parts,n-lap.length-pho.length),out=lap.concat(pho,rest);
+    for(let i=out.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[out[i],out[j]]=[out[j],out[i]];}
+    for(const r of out){for(let k=0;k<10;k++)if(k!==3)r[k]*=.8;r[1]-=.06;}return out;},
+  laptop(n){const th=.3,cs=Math.cos(th),sn=Math.sin(th),hy=.5,hz=-.5,nrm=[0,-sn,cs];
+    const scr=(u,v,o=0)=>[u,hy-v*cs+nrm[1]*o,hz-v*sn+nrm[2]*o]; // point on the tilted screen plane
+    const lift=[0,-.28,-.5],fl=[lift[0],lift[1]+nrm[1]*.75,lift[2]+nrm[2]*.75];
+    const sline=(u1,v1,u2,v2)=>()=>{const t=Math.random();return scr(u1+(u2-u1)*t,v1+(v2-v1)*t,.03);};
+    const srect=(u1,v1,u2,v2)=>()=>{const p=rr2((u1+u2)/2,(v1+v2)/2,u2-u1,v2-v1,.03);return scr(p[0],p[1],.03);};
+    return build([
+      {w:6,c:0,ex:[0,.42,0],pt:boxPt(0,hy+.04,.03,1.64,.07,1.1)},
+      {w:4.5,c:2,ex:[0,-.3,0],pt:()=>{const c=Math.floor(Math.random()*12),r=Math.floor(Math.random()*4),p=rr2(-.693+c*.126,-.3+r*.135,.1,.105,.02);return[p[0],hy,p[1]];}},
+      {w:1,c:1,ex:[0,-.3,0],pt:()=>{const p=rr2(0,.4,.5,.24,.03);return[p[0],hy,p[1]];}},
+      {w:5,c:1,ex:lift,pt:()=>{const p=rr2(0,.54,1.64,1.08,.05);return scr(p[0],p[1],Math.random()<.5?0:-.035);}},
+      {w:1.2,c:1,ex:lift,pt:()=>scr(rnd(-.8,.8),rnd(.02,1.06),-.035)},
+      {w:.9,c:0,ex:fl,pt:sline(-.72,.93,.72,.93)},
+      {w:.35,c:2,ex:fl,pt:()=>{const a=rnd(0,6.283),k=pickOf([-.68,-.61,-.54]);return scr(k+Math.cos(a)*.018,.985+Math.sin(a)*.018,.03);}},
+      {w:.8,c:0,ex:fl,pt:sline(-.68,.76,.0,.76)},{w:.6,c:0,ex:fl,pt:sline(-.68,.66,-.2,.66)},
+      {w:.6,c:2,ex:fl,pt:srect(-.68,.44,-.36,.56)},
+      {w:1.3,c:2,ex:fl,pt:srect(.16,.44,.7,.84)},{w:.6,c:2,ex:fl,pt:()=>{const t=Math.random(),u=.2+t*.46;return scr(u,.5+Math.abs(Math.sin(t*6.283*1.0))*.2*(1-t*.3),.03);}},
+      {w:.8,c:0,ex:fl,pt:srect(-.68,.1,-.26,.34)},{w:.8,c:1,ex:fl,pt:srect(-.2,.1,.22,.34)},{w:.8,c:2,ex:fl,pt:srect(.28,.1,.7,.34)}
+    ],n).map(r=>(r[2]=-r[2],r[6]=-r[6],r));},
+  phone(n){const parts=[
+      {w:6,c:2,ex:[0,0,-.42],pt:()=>{const p=rr2(0,0,.9,1.8,.15),r=Math.random();return[p[0],p[1],r<.4?.055:r<.8?-.055:rnd(-.055,.055)];}},
+      {w:1.2,c:2,ex:[0,0,-.42],pt:()=>[rnd(-.4,.4),rnd(-.84,.84),-.055]},
+      {w:.9,c:0,ex:[0,0,-.85],pt:()=>{const a=rnd(0,6.283),c=pickOf([-.66,-.44]),r=pickOf([.085,.085,.045]);return[.24+Math.cos(a)*r,c+Math.sin(a)*r,-.085];}},
+      {w:2.4,c:1,ex:[0,0,0],pt:()=>{const p=rr2(0,0,.8,1.7,.11);return[p[0],p[1],.06];}},
+      {w:.4,c:1,ex:[0,0,0],pt:()=>{const p=rr2(0,-.76,.24,.05,.024);return[p[0],p[1],.06];}},
+      {w:1.4,c:1,ex:[0,0,.34],pt:()=>{const p=rr2(0,.68,.68,.2,.07);return[p[0],p[1],.075];}}];
+    for(let r=0;r<4;r++)for(let c=0;c<3;c++){const x=-.24+c*.24,y=-.5+r*.27,k=(r+c)%3;
+      parts.push({w:.62,c:k,ex:[0,0,.5+k*.16],pt:()=>{if(Math.random()<.6){const p=rr2(x,y,.17,.17,.045);return[p[0],p[1],.075];}return[x+rnd(-.07,.07),y+rnd(-.07,.07),.075];}});}
+    for(let c=0;c<3;c++){const x=-.21+c*.21;parts.push({w:.4,c:[0,2,0][c],ex:[0,0,.52],pt:()=>{const p=rr2(x,.68,.13,.13,.035);return[p[0],p[1],.08];}});}
+    return build(parts,n);},
+
+  // a particle-physics collision event: a detector barrel with tracks curving out from one vertex. Ph.D. in particle physics, shown as data.
+  detector(n){const Rl=[.3,.52,.74,.96],Hl=[.5,.66,.82,.98],parts=[],outward=q=>[q[0]*.45,q[1]*.45,q[2]*.5];
+    Rl.forEach((r,i)=>{const hz=Hl[i],cc=[1,1,2,2][i];
+      for(const sz of [-1,1])parts.push({w:r*3.2,c:cc,ex:outward,pt:()=>{const a=rnd(0,6.283);return[Math.cos(a)*r,Math.sin(a)*r,sz*hz];}});
+      for(let k=0;k<12;k++){const a=k*Math.PI/6;parts.push({w:.2,c:cc,ex:outward,pt:seg([Math.cos(a)*r,Math.sin(a)*r,-hz],[Math.cos(a)*r,Math.sin(a)*r,hz])});}
+      parts.push({w:r*1.1,c:cc,ex:outward,pt:()=>{const a=rnd(0,6.283);return[Math.cos(a)*r,Math.sin(a)*r,0];}});});
+    parts.push({w:1.6,c:0,ex:ZERO,pt:()=>{const u=rnd(-1,1),a=rnd(0,6.283),s_=Math.sqrt(1-u*u);return[.045*s_*Math.cos(a),.045*s_*Math.sin(a),.045*u];}});
+    const NT=22;
+    for(let k=0;k<NT;k++){const phi=k/NT*6.283+rnd(-.12,.12),kap=(Math.random()<.5?-1:1)*rnd(.35,1.25),tl=rnd(-.55,.55),Rend=pickOf([.52,.74,.96,.96,.96]),S=Rend*1.03,col=k%5===0?2:k%3===0?1:0;
+      const at=s=>{const a=phi+kap*s;return[(Math.sin(a)-Math.sin(phi))/kap,(-Math.cos(a)+Math.cos(phi))/kap,s*tl];};
+      const tan=s=>{const a=phi+kap*s,m=Math.hypot(1,tl);return[Math.cos(a)/m*.34,Math.sin(a)/m*.34,tl/m*.34];};
+      parts.push({w:S*2.6,c:col,ex:outward,pt:()=>at(rnd(0,S))});
+      parts.push({w:S*1.6,c:col,ex:outward,pt:()=>{const s=rnd(0,S*.9);return at(s);},fl:tan(S*.5)});
+      const e=at(S);parts.push({w:.5,c:0,ex:outward,pt:boxPt(e[0],e[1],e[2],.09,.09,.09,.8)});}
+    const out=build(parts,n);for(const r of out)for(let k=0;k<10;k++)if(k!==3)r[k]*=.8;return out;},
+
+  // the Venn diagram as three interlocked rings. Each ring is a true circle, tilted a little in a pinwheel pattern, so it passes in front of one neighbour and behind the other.
+  // From the front (the opening view) it reads as three overlapping circles; as the scene swings you see the rings hooked together.
+  venn(n){const r=.62,C=[[0,-.404],[-.35,.202],[.35,.202]],AL=.3,ca=Math.cos(AL),sa=Math.sin(AL),T=.022,parts=[];
+    C.forEach((c,i)=>{const l=Math.hypot(c[0],c[1]),Nx=-c[1]/l,Ny=c[0]/l,Mx=c[0]/l,My=c[1]/l;
+      parts.push({w:4,c:i,ex:q=>[q[0]*.5,q[1]*.5,q[2]*.8],pt:()=>{const t=rnd(0,6.283),px=Math.cos(t)*r,py=Math.sin(t)*r,a=px*Nx+py*Ny,b=px*Mx+py*My,
+        u=rnd(-1,1),v=Math.sqrt(1-u*u),w=rnd(0,6.283),rr=T*Math.sqrt(Math.random());
+        return[c[0]+a*Nx+b*Mx+rr*v*Math.cos(w),c[1]+a*Ny+b*My+rr*v*Math.sin(w),a*sa+rr*u];}});});
+    const out=build(parts,n);for(const q of out){for(let k=0;k<10;k++)if(k!==3)q[k]*=.95;q[1]+=.06;}return out;},
+  neural(n){const X=[-.86,-.29,.29,.86],G_=[[3,3],[4,4],[4,4],[2,1]],C=[2,1,1,0],L=X.map((x,i)=>{const a=[];for(let r=0;r<G_[i][0];r++)for(let q=0;q<G_[i][1];q++)a.push([x,(r-(G_[i][0]-1)/2)*.36,(q-(G_[i][1]-1)/2)*.36]);return a;});
+    const ex=q=>[q[0]*.42,0,0],parts=[];
+    L.forEach((nodes,i)=>parts.push({w:nodes.length*.55,c:C[i],ex,pt:()=>{const c=pickOf(nodes),u=rnd(-1,1),a=rnd(0,6.283),s=Math.sqrt(1-u*u),r=i===3?.085:.06;return[c[0]+r*s*Math.cos(a),c[1]+r*u,c[2]+r*s*Math.sin(a)];}}));
+    for(let i=0;i<3;i++){const E=[];for(const a of L[i])for(let k=0;k<(i===2?1:2);k++)E.push([a,pickOf(L[i+1])]);if(i===2)for(const b of L[3])for(let k=0;k<5;k++)E.push([pickOf(L[2]),b]);
+      parts.push({w:E.length*.12,c:1,ex,pt:()=>{const e=pickOf(E);return seg(e[0],e[1])();}});}
+    return build(parts,n);}
+};
+const cache={};
+function sample(m){const key=m+'|'+fontOf()+'|'+N;if(cache[key])return cache[key];let out=[];
+  if(MODEL[m])out=MODEL[m](N);
+  else if(m==='globe'){const k=Math.round(N*.72);for(let i=0;i<k;i++){const y=1-(i/(k-1))*2,r=Math.sqrt(1-y*y),a=i*2.39996;out.push([Math.cos(a)*r*.82,y*.82,Math.sin(a)*r*.82,i%3,0,0,0]);}
+    for(let i=k;i<N;i++){const ring=i%3,t=rnd(0,6.283);let x=Math.cos(t)*1.2,y=0,z=Math.sin(t)*1.2;const tx=[0,1.1,-.9][ring],ty=[0,.6,1.2][ring];const y1=y*Math.cos(tx)-z*Math.sin(tx),z1=y*Math.sin(tx)+z*Math.cos(tx);const gx=x*Math.cos(ty)+z1*Math.sin(ty),gz=-x*Math.sin(ty)+z1*Math.cos(ty);out.push([gx,y1,gz,ring,gx*.45,y1*.45,gz*.45]);}}
+  else{g.clearRect(0,0,S,S);g.save();DRAW[m]();g.restore();const d=g.getImageData(0,0,S,S).data,cand=[];
+    for(let y=0;y<S;y++)for(let x=0;x<S;x++){const i=(y*S+x)*4;if(d[i+3]>140&&(d[i]>100||d[i+1]>100||d[i+2]>100)){const r=d[i],gg=d[i+1],b=d[i+2];cand.push([x,y,r>=gg&&r>=b?0:gg>=b?1:2]);}}
+    for(let i=cand.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[cand[i],cand[j]]=[cand[j],cand[i]];}
+    for(let i=0;i<N;i++){const c=cand[i%cand.length];let e=[0,0,0],z=0;
+      if(m==='store'){const dx=c[0]-256,dy=c[1]-256,d=Math.hypot(dx,dy);if(d<72){e=[0,0,.6];z=.1;}else if(d>118&&d<240){let hit=false;for(let k=0;k<6;k++){const a=-Math.PI/2+k*Math.PI/3,nx=256+Math.cos(a)*178,ny=256+Math.sin(a)*178;if(Math.abs(c[0]-nx)<50&&Math.abs(c[1]-ny)<50){e=[Math.cos(a)*.34,Math.sin(a)*.34,.22];z=.05;hit=true;break;}}if(!hit)e=[0,0,-.4];}else e=[0,0,-.4];}
+      out.push([(c[0]+rnd(-.5,.5))/S*2-1,(c[1]+rnd(-.5,.5))/S*2-1,z+rnd(-.012,.012),c[2],e[0],e[1],e[2]]);}}
+  return cache[key]=out;}
+let modeT0=0;
+function setMode(m,force,gentle){if(m===mode&&!force)return;modeT0=performance.now()/1000;const fly=!force&&!gentle&&!reduce&&!!mode;mode=m;vYaw=vTilt=0;const T=sample(m),now=performance.now(),f=frame();
+  if(fly){flyT=now;flyDir=-flyDir;flyWay=way;}E=1;Et=0;holdE=now+(fly?1900:1300);syncApart();
+  for(let i=0;i<N;i++){const p=P[i],t=T[i];p.ax=p.mx;p.ay=p.my;p.az=p.mz;p.bx=t[0];p.by=t[1];p.bz=t[2];p.c=t[3];p.ex=t[4];p.ey=t[5];p.ez=t[6];p.fx=t[7]||0;p.fy=t[8]||0;p.fz=t[9]||0;p.fl=!!(p.fx||p.fy||p.fz);p.fly=fly;p.fw=way;
+    p.t0=now+(t[0]+1)*(fly?200:260)+rnd(0,220);p.dur=fly?rnd(1500,2000):rnd(1100,1700);const a=rnd(0,6.283),k=rnd(.25,.9);p.ox=Math.cos(a)*k;p.oy=Math.sin(a)*k;p.oz=rnd(-.6,.6);}
+  document.querySelectorAll('.morphs button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.m===m));}
+function resize(){D=Math.min(devicePixelRatio||1,2);W=innerWidth;H=innerHeight;cv.width=W*D;cv.height=H*D;cx.setTransform(D,0,0,D,0,0);
+  const want=W<700?5000:12000;if(want!==N){N=want;P=[];for(let i=0;i<N;i++){const x=rnd(-2,2),y=rnd(-1.5,1.5),z=rnd(-1,1);P.push({mx:x,my:y,mz:z,ax:x,ay:y,az:z,bx:x,by:y,bz:z,c:i%3,t0:0,dur:1,ox:0,oy:0,oz:0,ex:0,ey:0,ez:0,fx:0,fy:0,fz:0,fl:false,fly:false,dx:0,dy:0,ph:rnd(0,6.283),sx:0,sy:0,q:1});}
+    {const hc=W<700?110:200,st=Math.floor(N/hc);hubs=Array.from({length:hc},(_,i)=>i*st+(i%7));}const m=mode||'globe';mode='';setMode(m,true);
+    floor=[];const st=W<700?.3:.16;for(let x=-8;x<=8.01;x+=.8)for(let z=0;z<=18;z+=st)floor.push(x,z,0);for(let z=0;z<=18.8;z+=.8)for(let x=-8;x<=8;x+=st)floor.push(x,z,1);}}
+const ease=k=>k<.5?4*k*k*k:1-Math.pow(-2*k+2,3)/2;
+const wrapA=a=>Math.atan2(Math.sin(a),Math.cos(a));
+function step(now){const t=now/1000,f=frame(),M=SWAY[mode]||SWAY.globe;
+  if(!reduce){if(M.spin)view.yaw+=M.spin/60;else if(M.hold){const e=t-modeT0-M.hold,A=Math.max(0,Math.min(1,e/3)),want=M.base+M.sway*A*Math.sin(Math.max(0,e)*.45);view.yaw+=wrapA(want-view.yaw)*.08;view.tilt+=(M.tilt*A-view.tilt)*.08;}else{const want=M.base+M.sway*Math.sin(t*.45);view.yaw+=wrapA(want-view.yaw)*.04;}if(!M.hold)view.tilt+=(M.tilt-view.tilt)*.04;}else{view.yaw=M.base||0;view.tilt=M.tilt;}
+  if(!drag){uYaw+=vYaw;uTilt+=vTilt;vYaw*=.95;vTilt*=.95;uYaw*=.985;uTilt*=.97;}
+  const zk=(M.hold&&!reduce)?Math.max(0,Math.min(1,(t-modeT0-M.hold+.4)/3.2)):1;
+  const Y_=view.yaw+uYaw,T_=Math.max(-1.2,Math.min(1.2,view.tilt+uTilt));
+  const cy_=Math.cos(Y_),sy_=Math.sin(Y_),ct=Math.cos(T_),st=Math.sin(T_);near.length=0;
+  if(now>holdE)E+=(Et-E)*.07;
+  const tau=Math.min(1,(now-flyT)/2100),bump=reduce?0:Math.pow(Math.sin(Math.PI*tau),2),roll=bump*.5*flyDir,cr=Math.cos(roll),sr=Math.sin(roll);
+  const thrR=f.s*1.75,thrD=Math.hypot(pointer.x-f.cx,pointer.y-f.cy),thrF=Math.max(0,Math.min(1,(thrR-thrD)/(thrR*.22))),thr=FX==='threads'&&pointer.x>-900&&!reduce&&thrF>0;if(thr){edgeD.fill(0);edgeP.fill(null);}
+  const buckets=[[],[],[]];
+  for(let i=0;i<N;i++){const p=P[i];let k=reduce?1:Math.min(1,Math.max(0,(now-p.t0)/p.dur));const e=ease(k),arc=Math.sin(Math.PI*k);
+    p.mx=p.ax+(p.bx+p.ex*E-p.ax)*e+p.ox*arc;p.my=p.ay+(p.by+p.ey*E-p.ay)*e+p.oy*arc;p.mz=p.az+(p.bz+p.ez*E-p.az)*e+p.oz*arc;
+    let x=p.mx,y=p.my,z=p.mz*(M.hold?zk:1);if(p.fl&&!reduce){const u=(t*.33+p.ph*.159)%1;x+=p.fx*u;y+=p.fy*u;z+=p.fz*u;}if(!reduce){x+=Math.sin(t*1.2+p.ph)*.0022;y+=Math.cos(t+p.ph)*.0022;}
+    const x2=x*cy_+z*sy_,z2=-x*sy_+z*cy_,y3=y*ct-z2*st;let z3=y*st+z2*ct;
+    // deep-perspective cut: the old shape rushes past the camera, the new one arrives from far away
+    if(p.fly&&k<1){const near=k<.5?Math.pow(k*2,2.4):Math.pow(1-(k-.5)*2,2.4);z3+=k<.5?-near*4.4:near*9;}
+    const den=3.4+z3;if(den<.45){p.sx=p.sy=-9999;p.q=0;p.big=1;p.z=z3;continue;}
+    const q=3.4/den,px_=x2*f.s*q,py_=y3*f.s*q;
+    let sx=f.cx+px_*cr-py_*sr,sy=f.cy+px_*sr+py_*cr;
+    const ex=sx-pointer.x,ey=sy-pointer.y,d2=ex*ex+ey*ey;let big=1;
+    if(!reduce&&d2<32400){const d=Math.sqrt(d2)||1,k=1-d/180;
+      if(FX==='lens'){const m=k*k*.55;p.dx+=(ex*m-p.dx)*.25;p.dy+=(ey*m-p.dy)*.25;big=1+k*1.8;}
+      else if(FX==='swirl'){const f=k*k*3.2;p.dx+=(-ey/d)*f-ex/d*f*.18;p.dy+=(ex/d)*f-ey/d*f*.18;}
+      }
+    // threads: remember the outermost particle in each direction, so the cursor is always wired to the whole outline
+    if(thr&&k>=1){const rx=sx-f.cx,ry=sy-f.cy,bi=((Math.atan2(ry,rx)+Math.PI)*BINK)|0,rd=rx*rx+ry*ry;if(rd>edgeD[bi]){edgeD[bi]=rd;edgeP[bi]=p;}}
+    p.big=big;
+    for(const pu of pulses){const r=(now-pu.t)*.8,dd=Math.hypot(sx-pu.x,sy-pu.y);if(Math.abs(dd-r)<18){p.dx+=(sx-pu.x)/(dd||1)*6;p.dy+=(sy-pu.y)/(dd||1)*6;}}
+    p.dx*=.9;p.dy*=.9;p.sx=sx+p.dx;p.sy=sy+p.dy;p.q=q;p.z=z3;buckets[p.c].push(p);}
+  pulses=pulses.filter(p=>now-p.t<1600);
+  cx.clearRect(0,0,W,H);
+  // a floor grid that runs to the horizon and folds up overhead during a cut
+  if(floor.length){zShift=(((zShift+(reduce?0:.004+bump*.11+scrollPush))%.8)+.8)%.8;scrollPush*=.82;const kap=.035+bump*.95,rad=5/kap,F=H*.62,hx=W*.5,hy=H*.47,fb=[[],[],[]];
+    for(let i=0;i<floor.length;i+=3){let x=floor[i],z=floor[i+1]-(floor[i+2]?zShift:0),y=1.25;if(z<0)continue;
+      if(z>2.5){const th=(z-2.5)/rad;y=1.25-rad*(1-Math.cos(th));z=2.5+rad*Math.sin(th);}
+      const dn=z+1.5;if(dn<.4)continue;const q=F/dn,ax=x*q,ay=y*q,sx=hx+ax*cr-ay*sr,sy=hy+ax*sr+ay*cr;if(sx<-20||sx>W+20||sy<-20||sy>H+20)continue;
+      const b=fb[dn<5?0:dn<10?1:2];b.push(sx,sy,Math.max(.5,Math.min(1.5,q/160)));}
+    const al=GLOW?[.34,.2,.11]:[.3,.18,.1];for(let b=0;b<3;b++){cx.fillStyle=`rgba(${INK[0]},${INK[1]},${INK[2]},${al[b]*(1+bump*.8)})`;cx.beginPath();const L=fb[b];for(let i=0;i<L.length;i+=3){const s=L[i+2];cx.rect(L[i]-s,L[i+1]-s,s*2,s*2);}cx.fill();}}
+  cx.globalCompositeOperation=GLOW?'lighter':'source-over';
+  // network of hub particles
+  const RR=f.s*.2,R2=RR*RR,links=[];cx.lineWidth=.7;
+  for(let a=0;a<hubs.length;a++){const A=P[hubs[a]];for(let b=a+1;b<hubs.length;b++){const Bp=P[hubs[b]];const dx=A.sx-Bp.sx,dy=A.sy-Bp.sy,d2=dx*dx+dy*dy;if(d2<R2){const al=(1-Math.sqrt(d2)/RR)*(GLOW?.32:.4);const c=CAT[A.c];
+    cx.strokeStyle=`rgba(${c[0]},${c[1]},${c[2]},${al})`;cx.beginPath();cx.moveTo(A.sx,A.sy);cx.lineTo(Bp.sx,Bp.sy);cx.stroke();if(al>.12)links.push([hubs[a],hubs[b]]);}}}
+  if(!reduce&&packets.length<30&&links.length&&Math.random()<.6){const e=links[Math.floor(Math.random()*links.length)];packets.push({a:e[0],b:e[1],t:now,d:rnd(400,900)});}
+  packets=packets.filter(p=>now-p.t<p.d);
+  for(const pk of packets){const a=P[pk.a],b=P[pk.b],k=(now-pk.t)/pk.d,x=a.sx+(b.sx-a.sx)*k,y=a.sy+(b.sy-a.sy)*k,c=CAT[b.c];
+    cx.fillStyle=`rgba(${c[0]},${c[1]},${c[2]},.3)`;cx.beginPath();cx.arc(x,y,5,0,6.283);cx.fill();cx.fillStyle=GLOW?'rgba(255,255,255,.95)':`rgb(${c})`;cx.beginPath();cx.arc(x,y,1.7,0,6.283);cx.fill();}
+  // particles, batched by color
+  for(let c=0;c<3;c++){const col=CAT[c],L=buckets[c];
+    if(GLOW){cx.fillStyle=`rgba(${col[0]},${col[1]},${col[2]},.04)`;cx.beginPath();for(const p of L){const s=Math.min(6,2.4*p.q);cx.rect(p.sx-s,p.sy-s,s*2,s*2);}cx.fill();}
+    cx.fillStyle=`rgba(${col[0]},${col[1]},${col[2]},${GLOW?.85:.9})`;cx.beginPath();for(const p of L){const s=Math.min(2.4,(p.z<0?.95:.75)*p.q*(p.big||1));cx.rect(p.sx-s,p.sy-s,s*2,s*2);}cx.fill();}
+  if(thr){cx.lineWidth=.9;const far=Math.max(W,H)*.6;
+    for(let b=0;b<BINS;b++){const p=edgeP[b];if(!p)continue;const d=Math.hypot(p.sx-pointer.x,p.sy-pointer.y),c=CAT[p.c],a=Math.max(.3,(1-d/far))*(GLOW?.62:.8)*thrF;
+      cx.strokeStyle=`rgba(${c[0]},${c[1]},${c[2]},${a})`;cx.beginPath();cx.moveTo(pointer.x,pointer.y);cx.lineTo(p.sx,p.sy);cx.stroke();
+      cx.fillStyle=`rgba(${c[0]},${c[1]},${c[2]},${.95*thrF})`;cx.beginPath();cx.arc(p.sx,p.sy,2,0,6.283);cx.fill();}
+    for(let h=0;h<hubs.length;h+=4){const p=P[hubs[h]];if(!p.q)continue;const c=CAT[p.c];cx.strokeStyle=`rgba(${c[0]},${c[1]},${c[2]},${(GLOW?.16:.24)*thrF})`;cx.beginPath();cx.moveTo(pointer.x,pointer.y);cx.lineTo(p.sx,p.sy);cx.stroke();}
+    cx.globalAlpha=thrF;cx.fillStyle=GLOW?'rgba(255,255,255,.95)':`rgb(${INK})`;cx.beginPath();cx.arc(pointer.x,pointer.y,3.2,0,6.283);cx.fill();cx.globalAlpha=1;}
+  cx.globalCompositeOperation='source-over';
+  // the hero cycles through shapes on its own
+  if(heroAuto&&!reduce&&now-lastCycle>4800){lastCycle=now;cycleI=(cycleI+1)%CYCLE.length;setMode(CYCLE[cycleI],false,true);}
+  if(pairAuto&&!reduce&&now-lastApps>4200){lastApps=now;const pr=PAIRS[pairAuto];setMode(mode===pr[0]?pr[1]:pr[0],false,true);}
+  requestAnimationFrame(step);}
+const CYCLE=['globe','laptop','neural','phone','store','chart'];let cycleI=0,lastCycle=performance.now(),heroAuto=true,pairAuto='',lastApps=performance.now(),prevSec='';const PAIRS={apps:['phone','laptop'],ai:['neural','pipeline']};
+resize();addEventListener('resize',resize);requestAnimationFrame(step);
+(document.fonts&&document.fonts.ready||Promise.resolve()).then(()=>{for(const k in cache)delete cache[k];});
+addEventListener('pointermove',e=>{pointer.x=e.clientX;pointer.y=e.clientY},{passive:true});
+document.addEventListener('pointerleave',()=>{pointer.x=pointer.y=-999});
+addEventListener('click',e=>{if(moved>6)return;if(e.target.closest('a,button,input,label,.demo,.venn,.apps,.why'))return;pulses.push({x:e.clientX,y:e.clientY,t:performance.now()});});
+let moved=0;
+function syncApart(){const b=document.getElementById('apart');if(b){b.textContent=Et>.5?'Put it together':'Take it apart';b.setAttribute('aria-pressed',Et>.5);}}
+function toggleApart(){Et=Et>.5?0:1;holdE=0;syncApart();}
+const NOGRAB='a,button,input,label,select,textarea,.col,.demo,.venn,.apps,.why,.menu,header,footer';
+addEventListener('pointerdown',e=>{if(e.pointerType==='touch'||e.target.closest(NOGRAB))return;drag={x:e.clientX,y:e.clientY};moved=0;document.body.classList.add('grabbing');});
+addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;moved+=Math.abs(dx)+Math.abs(dy);drag={x:e.clientX,y:e.clientY};vYaw=dx*.006;vTilt=dy*.004;uYaw+=vYaw;uTilt+=vTilt;},{passive:true});
+addEventListener('pointerup',()=>{drag=null;document.body.classList.remove('grabbing');});
+function setFX(f){FX=f;try{localStorage.setItem('zl-fx',f)}catch(e){}}
+try{const f=localStorage.getItem('zl-fx');if(['lens','swirl','threads'].includes(f))setFX(f);else setFX('threads');}catch(e){setFX('threads');}
+document.getElementById('apart')?.addEventListener('click',toggleApart);
+addEventListener('dblclick',e=>{if(!e.target.closest(NOGRAB))toggleApart();});
+let manual=false;
+document.querySelectorAll('.morphs button').forEach(b=>b.addEventListener('click',()=>{manual=true;heroAuto=false;way=1;setMode(b.dataset.m);}));
+document.querySelectorAll('.pairmorph button').forEach(b=>b.addEventListener('click',()=>{pairAuto='';}));
+const secs=[...document.querySelectorAll('.sec')],links=[...document.querySelectorAll('.menu a')];
+const tint={biz:'var(--c1)',ai:'var(--c2)',apps:'var(--c3)',why:'var(--text)',contact:'var(--text)'};
+// Sections scroll normally. The floor grid drifts with the scroll.
+const cols=secs.map(s=>s.querySelector('.col'));let lastY=scrollY;
+function depth(){}
+addEventListener('resize',()=>{cols.forEach(c=>c&&(c.dataset.o=''));depth();});
+function onScroll(){const y=scrollY,dy=y-lastY;lastY=y;if(dy){way=dy>0?1:-1;scrollPush=Math.max(-.2,Math.min(.2,scrollPush+dy*.0009));}
+  depth();
+  let best=null,bd=1e9;for(const s of secs){const r=s.getBoundingClientRect();const d=Math.abs(r.top+r.height/2-innerHeight/2);if(d<bd){bd=d;best=s;}}
+  if(best.id==='hero'){if(!manual){if(!heroAuto){lastCycle=performance.now();cycleI=0;if(mode!=='globe')setMode('globe');}heroAuto=true;}}else{manual=false;heroAuto=false;if(!(PAIRS[best.id]&&PAIRS[best.id].includes(mode)))setMode(best.dataset.mode);}
+  if(PAIRS[best.id]){if(prevSec!==best.id){pairAuto=best.id;lastApps=performance.now();}}else pairAuto='';
+  prevSec=best.id;
+  links.forEach(a=>{const on=a.dataset.for===best.id;a.classList.toggle('here',on);if(on)a.style.setProperty('--cur',tint[best.id]||'var(--text)');});}
+addEventListener('scroll',()=>requestAnimationFrame(onScroll),{passive:true});onScroll();
+// a new style changes the display font, so text shapes are redrawn
+document.getElementById('themebtn').addEventListener('click',()=>{setTimeout(()=>{setMode(mode,true);},60);});
+
+
+/* ---------- apps ---------- */
+const apps=[
+ ['BillSplit','Split any bill item by item. Saved profiles match similar bills and split them your way. Runs on Apple Intelligence with Private Cloud Compute, which keeps no data. Free, secure and private.','<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 4h20v32l-4-3-3 3-3-3-3 3-3-3-4 3z"/><path d="M15 13h10M15 19h10M15 25h5"/></svg>','billsplit'],
+ ['Lexigen','AI flashcards for language learning. Definitions and usage examples are written by Apple\'s on-device models.','<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><rect x="5" y="9" width="24" height="18" rx="3"/><path d="M11 33h22a2 2 0 0 0 2-2V15" stroke-linecap="round"/><path d="M11 21l3-7 3 7m-5-2h4" stroke-linecap="round"/></svg>','lexigen'],
+ ['PassPhoto','Passport photos made easy on your phone. It guides you, then crops and resizes the photo to the official rules of 45 countries and areas, and checks the result with AI. Free and private with Apple Intelligence.','<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="28" height="32" rx="3"/><circle cx="20" cy="16" r="6" fill="currentColor"/><path d="M10 33c2-6 6-8 10-8s8 2 10 8" fill="currentColor"/></svg>','passphoto'],
+ ['Long Text Pic','Edit long text and turn it into one long image for sharing.','<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="10" y="3" width="20" height="34" rx="3"/><path d="M15 10h10M15 15h10M15 20h10M15 25h6"/></svg>','longtextpic'],
+ ['Latent Upscale','An open-source Stable Diffusion plugin for sharper image-to-image upscaling. It upscales in latent space with better interpolation methods and schedulers.','<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="24" width="10" height="10" fill="currentColor"/><rect x="12" y="6" width="24" height="24"/><path d="M14 22l12-12m0 0h-7m7 0v7"/></svg>','https://github.com/feynlee/latent-upscale']];
+const PAGES={
+ passphoto:{name:'PassPhoto',eyebrow:'PassPhoto \u00b7 for iPhone',h:'Passport photos.',h2:'Right the first time.',
+  desc:'PassPhoto is completely free to use. Every photo feature is included. Optional tips support development and unlock nothing. Take or choose a photo, pick your document, and PassPhoto crops it to that document\u2019s official rules for 45 countries and areas, plus the international ICAO standard. Faces are never retouched. The photo check runs on your iPhone or with Apple\u2019s Private Cloud Compute.',
+  status:'Available on the App Store',store:'https://apps.apple.com/app/id6816522205',
+  shots:[['images/passphoto-shot.jpg','phone','PassPhoto on iPhone with a passport portrait fitted to the head and eye guides'],['images/passphoto-sheet.jpg','wide','A 4 by 6 inch print sheet with two copies of the photo and cut marks']],
+  steps:[['Pick your document','Choose from 63 documents across 45 countries and areas, each with its official rules and source.'],['Take or choose a photo','The guided camera tells you when everything lines up.'],['Check, save and print','Review the photo against the document rules, then save it or make a 4\u00d76 print sheet.']],
+  email:'passphoto@flycricket.support',links:[['Privacy policy','https://feynlee.github.io/curiosity-notes/Apps/PassPhoto-privacy.html']]},
+ billsplit:{name:'BillSplit',eyebrow:'BillSplit \u00b7 for iPhone',h:'Split the bill.',h2:'Keep it fair.',
+  desc:'A clear, item-by-item way to split a restaurant check. Assign dishes, share tax and tip proportionally, and see what everyone owes. BillSplit does not transfer bill payments or send payment requests. Optional support tips use Apple\u2019s in-app purchase system.',
+  status:'Available on the App Store',store:'',
+  shots:[['images/billsplit-shot.jpg','phone','BillSplit on iPhone showing a receipt, item assignments, shared tax and tip, and the final total'],['images/billsplit-receipt.jpg','second','Sample restaurant receipt with two dishes, tax, tip and a $38.71 total']],
+  steps:[['Add the items','Start with the receipt and its itemized total.'],['Share each dish','Choose who had each item, including shared plates.'],['Check each share','See each person\'s share of the items, tax and tip.']],
+  email:'billsplit@flycricket.support',links:[]},
+ lexigen:{name:'Lexigen',eyebrow:'Lexigen \u00b7 for iPhone',h:'Flashcards that',h2:'write themselves.',
+  desc:'AI-powered flashcards for language learning. The definition and usage examples are generated by Apple\u2019s on-device foundation models.',
+  status:'On the App Store',store:'',
+  shots:[['images/lexigen-banner.jpg','wide','Lexigen app banner']],steps:[],
+  email:'lexigen@flycricket.support',links:[['Privacy policy','https://doc-hosting.flycricket.io/lexigen-privacy-policy/5b4d1d56-aab4-442c-8bad-c365dab98488/privacy'],['Terms of use','https://doc-hosting.flycricket.io/lexigen-terms-conditions/403a661f-81db-463c-b2a4-23e0fe98e80e/privacy']]},
+ longtextpic:{name:'Long Text Pic',eyebrow:'Long Text Pic \u00b7 for iPhone',h:'Long text,',h2:'one shareable image.',
+  desc:'Edit long text and convert it into a single long image for sharing.',
+  status:'On the App Store',store:'',
+  shots:[['images/longtextpic-banner.jpg','wide','Long Text Pic app banner']],steps:[],
+  email:'long-text-pic@flycricket.support',links:[['Privacy policy','https://doc-hosting.flycricket.io/long-text-pic-privacy-policy/9fb63f5d-7387-4a59-a7b5-e9f31aff2121/privacy'],['Terms of use','https://doc-hosting.flycricket.io/long-text-pic-terms-of-use/9b7dadc5-5887-4353-aeeb-d8ff20c12f1a/terms']]}
+};
+const al=document.getElementById('applist'),ai2=document.getElementById('appinfo');
+const info=(n,d,id)=>`<h3>${n}</h3><p>${d}</p>${id?(id.startsWith('http')?`<a class="open" href="${id}" target="_blank" rel="noopener">View on GitHub \u2192</a>`:`<a class="open" href="apps/${id}/">See the ${n} page \u2192</a>`):''}`;
+apps.forEach(([n,d,svg,id],i)=>{const b=document.createElement('button');b.className='app';b.setAttribute('aria-pressed',i===0);b.innerHTML=`<span class="icon">${svg}</span><span>${n}</span>`;const ic=b.querySelector('.icon');
+  b.addEventListener('pointermove',e=>{if(reduce)return;const r=ic.getBoundingClientRect();const px=(e.clientX-r.left)/r.width-.5,py=(e.clientY-r.top)/r.height-.5;ic.style.transform=`translateY(-3px) perspective(600px) rotateX(${-py*10}deg)`;});
+  b.addEventListener('pointerleave',()=>ic.style.transform='');
+  b.addEventListener('click',()=>{al.querySelectorAll('.app').forEach(o=>o.setAttribute('aria-pressed',o===b));ai2.innerHTML=info(n,d,id);});al.appendChild(b);});
+ai2.innerHTML=info(apps[0][0],apps[0][1],apps[0][3]);
+
+/* ---------- overlaps ---------- */
+const OV={ba:['Business and AI','Using AI to save time or money in daily operations. For example: answering customers faster, drafting quotes and replies, summarizing paperwork, and automating repeated tasks.'],
+ ap:['AI and Products','AI features inside the apps your customers use. For example: an app that reads, writes, translates, searches or recommends, or a support chat that answers customer questions.'],
+ bp:['Business and Products','Internal tools and apps that speed up operations. For example: tools that simplify tasks, connect steps in a workflow, and save your staff manual work.'],
+ all:['All three','A tool that uses AI to run part of the business. For example: a system that reads incoming orders, updates your records, and sends a weekly report.'],
+ b:['Business','The everyday systems a business runs on. For example: setting up payments, ordering, booking, and a website.'],a:['AI & Data','Models, data pipelines and analysis. For example: forecasting, prediction, moving and cleaning data, and reporting.'],p:['Products','Customer-facing tools and apps. For example: marketing tools, app development, and tools for customer success.']};
+const venn=document.getElementById('venn'),mark=document.getElementById('mark'),ovl=document.getElementById('overlap'),pick=[...document.querySelectorAll('#pick button')];
+const C=[[210,140],[145,250],[275,250]],RV=115,centers={ba:[170,180],ap:[210,280],bp:[250,180],all:[210,215]};
+function show(k,x,y){const o=OV[k];if(!o)return;ovl.innerHTML=`<h3>${o[0]}</h3><p>${o[1]}</p>`;pick.forEach(b=>b.setAttribute('aria-pressed',b.dataset.k===k));if(x!=null){mark.setAttribute('cx',x);mark.setAttribute('cy',y);}}
+function keyAt(x,y){const [b,a,p]=C.map(([u,v])=>Math.hypot(x-u,y-v)<RV);if(b&&a&&p)return'all';if(b&&a)return'ba';if(a&&p)return'ap';if(b&&p)return'bp';if(b)return'b';if(a)return'a';if(p)return'p';return null;}
+function loc(e){const r=venn.getBoundingClientRect();return[(e.clientX-r.left)/r.width*420,(e.clientY-r.top)/r.height*380];}
+['pointermove','click'].forEach(ev=>venn.addEventListener(ev,e=>{const [x,y]=loc(e);const k=keyAt(x,y);if(k)show(k,x,y);}));
+pick.forEach(b=>b.addEventListener('click',()=>{const c=centers[b.dataset.k];show(b.dataset.k,c[0],c[1]);}));
+show('all',210,215);
+
+/* ---------- why ---------- */
+document.querySelectorAll('#whylist button').forEach(b=>b.addEventListener('click',()=>{const open=b.getAttribute('aria-expanded')!=='true';document.querySelectorAll('#whylist button').forEach(o=>o.setAttribute('aria-expanded','false'));b.setAttribute('aria-expanded',open);}));
+
+/* ---------- app pages (hash: #app-name) ---------- */
+const av=document.getElementById('appview');
+const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function showApp(){
+  const m=/^#app-([a-z]+)$/.exec(location.hash),P=m&&PAGES[m[1]];
+  if(!P){av.hidden=true;root.classList.remove('view-open');return;}
+  const shots=P.shots.map(([src,cls,alt])=>`<img class="${cls}" src="${src}" alt="${esc(alt)}">`).join('');
+  const steps=P.steps.length?`<div class="av-steps">${P.steps.map(([a,b])=>`<div><b>${esc(a)}</b><p>${esc(b)}</p></div>`).join('')}</div>`:'';
+  const links=P.links.map(([a,u])=>`<a href="${u}" target="_blank" rel="noopener">${esc(a)}</a>`).join('');
+  const store=P.store?`<a class="av-btn" href="${P.store}" target="_blank" rel="noopener">Open on the App Store</a>`:'';
+  av.innerHTML=`<div class="av"><a class="back" href="#apps">\u2190 Back to apps</a><div class="av-hero"><div><div class="av-eyebrow">${esc(P.eyebrow)}</div><h1>${esc(P.h)}<br><span>${esc(P.h2)}</span></h1><p class="av-desc">${esc(P.desc)}</p><div class="av-status">${esc(P.status)}</div>${store}<div class="av-links"><span>Support: ${esc(P.email)}</span>${links}</div></div><div class="av-shots">${shots}</div></div>${steps}</div>`;
+  av.hidden=false;root.classList.add('view-open');av.scrollTop=0;
+}
+addEventListener('hashchange',showApp);showApp();
+})();
+</script>
+</body>
+</html>
